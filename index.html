@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon: Stable URLs for Google Search (48x48+ square). .ico first for crawlers. -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="48x48" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.png" sizes="180x180" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavanity Global | International Food & Ingredient Supplier</title>
+    <meta name="description" content="Export-ready food ingredients from India for B2B and HoReCa buyers. Dehydrated onions, garlic, spices, oilseeds, psyllium husk & jaggery from India." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pavanity Global" />
+    <meta property="og:title" content="Pavanity Global | International Food & Ingredient Supplier" />
+    <meta property="og:description" content="Export-ready supply supporting structured B2B and HoReCa requirements across international markets. Dehydrated onions, garlic, spices, oilseeds & more from India." />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/images/main_product_bc.png" />
+    <meta property="og:image:alt" content="Pavanity Global - International Food & Ingredient Supplier" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pavanity Global | International Food & Ingredient Supplier" />
+    <meta name="twitter:description" content="Export-ready supply supporting structured B2B and HoReCa requirements across international markets." />
+    <meta name="twitter:image" content="__SITE_URL__/images/main_product_bc.png" />
+    <meta name="author" content="Pavanity Global" />
+    <meta name="theme-color" content="#20a839" />
+    <!-- SEO: Site URL is injected at build from VITE_APP_SITE_URL (.env) -->
+    <meta name="keywords" content="Pavanity Global, Pavanity, international food supplier, ingredient exporter, dehydrated onion, dehydrated garlic, spices exporter India, B2B food ingredients, HoReCa supplier, export ready ingredients" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" id="canonical-url" href="__SITE_URL__/" />
+    <!-- SEO: Added - Sitemap reference in HTML head -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <!-- Structured Data (JSON-LD) for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "__SITE_URL__/#organization",
+          "name": "Pavanity Global",
+          "url": "__SITE_URL__",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "__SITE_URL__/images/logo.png",
+            "width": 2754,
+            "height": 720
+          },
+          "description": "International Food & Ingredient Supplier. Export-ready supply for global food businesses – dehydrated onions, garlic, spices, oilseeds, psyllium husk, jaggery and value-added ingredients from India.",
+          "email": "info@pavanityglobal.com",
+          "sameAs": [
+            "https://www.linkedin.com/company/pavanity-global/",
+            "https://www.instagram.com/pavanity_global",
+            "https://wa.me/message/H6DRDTCA6OHHG1"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "__SITE_URL__/#website",
+          "url": "__SITE_URL__",
+          "name": "Pavanity Global",
+          "description": "International Food & Ingredient Supplier – Export supply for B2B and HoReCa.",
+          "publisher": { "@id": "__SITE_URL__/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": { "@type": "EntryPoint", "urlTemplate": "__SITE_URL__/products?q={search_term_string}" },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "__SITE_URL__/" }]
+        }
+      ]
+    }
+    </script>
+    <!-- SEO: Added - Preconnect to external CDNs for faster resource loading -->
+    <link rel="preconnect" href="https://code.jquery.com" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="https://code.jquery.com" />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Hide HubSpot virality (free account "Create your own free forms" branding) -->
+    <style>#hs-form-virality-container,#hs-form-virality-iframe{display:none!important;height:0!important;visibility:hidden!important}</style>
+  </head>
+  <body class="dark:bg-title">
+    <div id="root"></div>
+    <!-- SEO: Canonical URL uses actual site domain (important for correct indexing) -->
+    <script>
+      (function() {
+        var link = document.getElementById('canonical-url');
+        if (link) link.href = window.location.origin + (window.location.pathname || '/');
+      })();
+    </script>
+    <!-- Remove HubSpot virality container (runs globally, before React) -->
+    <script>
+      (function() {
+        function removeVirality() {
+          var c = document.getElementById('hs-form-virality-container');
+          var i = document.getElementById('hs-form-virality-iframe') || document.querySelector('iframe[src*="embedded-viral"], iframe[title="HubSpot Virality"]');
+          if (c) c.remove();
+          if (i) { var p = i.parentElement; i.remove(); if (p && p.childElementCount === 0) p.remove(); }
+        }
+        removeVirality();
+        setTimeout(removeVirality, 1000);
+        setTimeout(removeVirality, 2000);
+        setTimeout(removeVirality, 4000);
+        var obs = new MutationObserver(removeVirality);
+        if (document.body) obs.observe(document.body, { childList: true, subtree: true });
+        else document.addEventListener('DOMContentLoaded', function() { obs.observe(document.body, { childList: true, subtree: true }); });
+        var iv = setInterval(removeVirality, 500);
+        setTimeout(function() { clearInterval(iv); }, 15000);
+      })();
+    </script>
+    <!-- SEO: Crawlable content when JS is off or for crawlers that read HTML first -->
+    <noscript>
+      <div style="max-width:800px;margin:2rem auto;padding:1rem;font-family:system-ui,sans-serif;">
+        <h1 style="font-size:2rem;margin-bottom:0.5rem;">Pavanity Global</h1>
+        <p style="font-size:1.125rem;color:#333;">International Food &amp; Ingredient Supplier. Export-ready supply for global food businesses – dehydrated onions, garlic, spices, oilseeds, psyllium husk, jaggery and value-added ingredients from India.</p>
+        <p><a href="/">Enter site</a> | <a href="/products">Products</a> | <a href="/contact">Contact</a></p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

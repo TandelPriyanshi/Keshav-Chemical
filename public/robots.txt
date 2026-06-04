@@ -1,0 +1,6 @@
+# Pavanity Global - Allow search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap (generated from scripts/site-url.js)
+Sitemap: https://www.pavanityglobal.com/sitemap.xml
