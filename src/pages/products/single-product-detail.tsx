@@ -89,7 +89,7 @@ export default function SingleProductDetail() {
         <>
             <SeoHead
                 title={product.name}
-                description={productDesc || `${product.name} – Export-grade from Pavanity Global. ${category.tagline}.`}
+                description={productDesc || `${product.name} – Export-grade from Keshav Chemical. ${category.tagline}.`}
                 path={`/products/${categorySlug}/${productSlug}`}
             />
             {/* Navbar */}
@@ -165,7 +165,7 @@ export default function SingleProductDetail() {
                                     {product.name}
                                 </h3>
                                 <p className="pavanity-products-overview__copy mt-4 text-base sm:text-lg">
-                                    {product.description || `Premium quality ${product.name.toLowerCase()} from ${category.name}. Sourced and processed to meet international export standards and buyer specifications.`}
+                                    {product.description || `Premium quality ${product.name.toLowerCase()} from ${category.name}. Manufactured to meet high industry standards and buyer specifications.`}
                                 </p>
                                 <div className="mt-6 md:mt-8">
                                     <Link

@@ -24,7 +24,7 @@ const privateLabelCapabilities = [
     {
         title: "Custom Formulation",
         description:
-            "Product development aligned with buyer specifications, ingredient preferences, and market requirements. Support for custom blends, flavors, and functional formulations.",
+            "Product development aligned with contractor specifications, performance criteria, and project requirements. Support for custom mixes, grades, and functional chemistry properties.",
         icon: <FaCog className="text-2xl" />,
     },
     {
@@ -34,9 +34,9 @@ const privateLabelCapabilities = [
         icon: <FaFileContract className="text-2xl" />,
     },
     {
-        title: "Bulk Export Supply",
+        title: "Bulk Project Supply",
         description:
-            "Bulk food ingredients and agricultural products for international buyers. Export documentation, quality certificates, and customs clearance support included.",
+            "Bulk construction chemicals and tile adhesive products for project sites and distributors. Order coordination, quality certificates, and logistics support included.",
         icon: <FaShippingFast className="text-2xl" />,
     },
 ] as const;
@@ -111,10 +111,10 @@ export default function PrivateLabelCustomSourcing() {
                                 </div>
                                 <p className="pavanity-private-intro-panel__eyebrow">Private Label Supply</p>
                                 <h2 className="font-medium leading-none text-2xl md:text-3xl lg:text-4xl">
-                                    Private Label Food Supply & Custom Ingredient Sourcing
+                                    Private Label Chemical Supply & Custom Product Sourcing
                                 </h2>
                                 <p className="pavanity-private-intro-panel__copy mt-4 text-base md:text-lg">
-                                    Pavanity Global supports private label development and custom ingredient sourcing for international B2B buyers and food businesses. Our export operations are structured to meet buyer specifications, quality standards, and destination market requirements.
+                                    Keshav Chemical supports private label development and custom product formulation for construction B2B partners, dealers, and builders. Our manufacturing operations are structured to meet partner specifications, building quality standards, and market regulations.
                                 </p>
                             </div>
 

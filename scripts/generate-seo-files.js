@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const baseUrl = SITE_URL.replace(/\/$/, '');
 
-const robotsTxt = `# Pavanity Global - Allow search engines to crawl the site
+const robotsTxt = `# Keshav Chemical - Allow search engines to crawl the site
 User-agent: *
 Allow: /
 
@@ -29,32 +29,21 @@ const urls = [
   { loc: '/quality-compliance', changefreq: 'monthly', priority: '0.8' },
   { loc: '/private-label-custom-sourcing', changefreq: 'monthly', priority: '0.8' },
   { loc: '/contact', changefreq: 'monthly', priority: '0.8' },
-  { loc: '/products/white-onion', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/red-onion', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/pink-onion', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/garlic', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/oilseeds', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/psyllium-husk', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/jaggery', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/agro-allied-food-products', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/spices', changefreq: 'monthly', priority: '0.7' },
-  { loc: '/products/value-added-dehydrated-products', changefreq: 'monthly', priority: '0.7' },
+  { loc: '/products/tile-adhesives', changefreq: 'monthly', priority: '0.7' },
+  { loc: '/products/grouts', changefreq: 'monthly', priority: '0.7' },
+  { loc: '/products/construction-chemicals', changefreq: 'monthly', priority: '0.7' },
+  { loc: '/products/tile-care-products', changefreq: 'monthly', priority: '0.7' },
+  { loc: '/products/block-jointing-mortar', changefreq: 'monthly', priority: '0.7' },
   // Individual product pages (category/product)
   ...[
-    'white-onion', 'red-onion', 'pink-onion', 'garlic', 'oilseeds', 'psyllium-husk',
-    'jaggery', 'agro-allied-food-products', 'spices', 'value-added-dehydrated-products',
+    'tile-adhesives', 'grouts', 'construction-chemicals', 'tile-care-products', 'block-jointing-mortar',
   ].flatMap((cat) => {
     const products = {
-      'white-onion': ['white-onion-powder', 'white-onion-flakes', 'white-onion-granules', 'white-onion-chopped', 'white-onion-minced'],
-      'red-onion': ['red-onion-powder', 'red-onion-flakes', 'red-onion-granules', 'red-onion-chopped', 'red-onion-minced'],
-      'pink-onion': ['pink-onion-powder', 'pink-onion-flakes', 'pink-onion-granules', 'pink-onion-chopped', 'pink-onion-minced'],
-      'garlic': ['garlic-powder', 'garlic-granules', 'garlic-chopped', 'garlic-minced', 'garlic-cloves'],
-      'oilseeds': ['black-sesame-seeds', 'hulled-sesame-seeds', 'natural-sesame-seeds', 'chia-seeds', 'java-peanuts', 'tj-peanuts', 'bold-peanuts'],
-      'psyllium-husk': ['psyllium-seeds', 'psyllium-husk', 'psyllium-husk-powder', 'psyllium-khakha-powder', 'psyllium-cattle-feed-fiber'],
-      'jaggery': ['jaggery-cubes', 'jaggery-powder'],
-      'agro-allied-food-products': ['moringa-powder', 'peanut-butter', 'indian-groundnut-extraction-meal'],
-      'spices': ['cumin-seeds', 'fenugreek-seeds', 'mustard-seeds', 'fennel-seeds', 'chilli-whole-powder', 'turmeric-whole-powder', 'cinnamon', 'cloves', 'black-pepper', 'cardamom', 'yellow-mustard-seeds'],
-      'value-added-dehydrated-products': ['dehydrated-fried-onion', 'toasted-onion-kibbled', 'toasted-onion-chopped'],
+      'tile-adhesives': ['keshav-kc-1', 'keshav-kc-2', 'keshav-kc-3', 'keshav-kc-4-white', 'keshav-kc-5-no-limit-gray', 'keshav-kc-6-white-no-limit-white', 'keshav-pu-adhesive'],
+      'grouts': ['keshav-polymer-grout', 'keshav-epoxy-grout', 'premium-epoxy-grouts', 'sparkle-epoxy-grouts', 'grout-admixture'],
+      'construction-chemicals': ['keshav-sbr-latex'],
+      'tile-care-products': ['keshav-tile-cleaner'],
+      'block-jointing-mortar': ['keshav-block-fix'],
     }[cat] || [];
     return products.map((p) => ({ loc: `/products/${cat}/${p}`, changefreq: 'monthly', priority: '0.6' }));
   }),

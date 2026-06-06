@@ -22,7 +22,7 @@ export default function CommercialScopeSection() {
               Commercial Scope
             </h3>
             <p className="mt-3 text-title dark:text-white-light">
-              Comprehensive export capabilities for global B2B and HoReCa channels
+              Comprehensive supply solutions for construction projects and dealer networks
             </p>
           </div>
 

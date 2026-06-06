@@ -16,7 +16,7 @@ interface SeoHeadProps {
 export default function SeoHead({ title, description, path, image }: SeoHeadProps) {
   const location = useLocation();
   const canonicalPath = path ?? (location.pathname || '/');
-  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.pavanityglobal.com';
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.keshavchemical.com';
   const canonicalUrl = `${baseUrl}${canonicalPath}`;
   const ogImage = image ?? `${baseUrl}/images/main_product_bc.png`;
 

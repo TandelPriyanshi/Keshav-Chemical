@@ -48,7 +48,7 @@ export default function ContactPavanity() {
                             className="pavanity-split-panel__media pavanity-contact-visual hidden lg:block"
                             data-aos="zoom-in"
                         >
-                            <img className="w-full" src={contactImg} alt="Contact Pavanity Global" />
+                            <img className="w-full" src={contactImg} alt="Contact Keshav Chemical" />
                         </div>
 
                         <div className="pavanity-split-panel__content pavanity-contact-content pavanity-logo-watermark-surface flex items-center py-8 sm:py-12 px-5 sm:px-12 md:px-8 lg:pr-12 lg:pl-16 2xl:pl-[140px]">
@@ -88,7 +88,7 @@ export default function ContactPavanity() {
                                 </div>
                                 <div className="pavanity-contact-card__body">
                                     <h4 className="text-xl font-semibold">Email</h4>
-                                    <p className="text-base mt-3">info@pavanityglobal.com</p>
+                                    <p className="text-base mt-3">info@keshavchemical.com</p>
                                 </div>
                                 <div className="pavanity-contact-card__footer" aria-hidden="true">
                                     <span className="pavanity-contact-card__footer-line" />
@@ -129,7 +129,7 @@ export default function ContactPavanity() {
                                         Business Enquiries
                                     </h4>
                                     <p className="text-base mt-3">
-                                        Open for B2B and HoReCa buyers globally
+                                        Open for contractors, dealers, and project networks
                                     </p>
                                 </div>
                                 <div className="pavanity-contact-card__footer" aria-hidden="true">

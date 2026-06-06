@@ -50,10 +50,10 @@ export default function ProductsMain() {
                 {/* Section Header */}
                 <div className="pavanity-section-intro pavanity-products-section-intro mb-8 md:mb-12" data-aos="fade-up" data-aos-delay="100">
                     <h2 className="font-medium leading-none text-2xl md:text-3xl lg:text-4xl">
-                        Export-Grade Food & Agricultural Ingredients for Global B2B Buyers
+                        Export-Grade Construction Chemicals & Adhesives for Global Markets
                     </h2>
                     <p className="mt-4 text-base md:text-lg">
-                        Export-focused sourcing partner supplying food and agricultural ingredients to international B2B and HoReCa buyers, with compliance-ready documentation and shipment support.
+                        Export-focused manufacturing partner supplying high-performance construction chemicals, tile adhesives, and grouts to international B2B buyers and projects, with compliance-ready documentation and logistics support.
                     </p>
                 </div>
 

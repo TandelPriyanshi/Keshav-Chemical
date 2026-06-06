@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logoLight from "../../assets/img/svg/logo-light.png";
+
 
 import {
     FaFacebookF,
@@ -42,22 +42,17 @@ function getSocialIcon(iconName: SocialIconName) {
 export default function FooterPavanity() {
     return (
         <footer className="pavanity-site-footer">
-            <img
-                src={logoLight}
-                alt=""
-                aria-hidden="true"
-                className="pavanity-site-footer__watermark"
-            />
-
             <div className="container-fluid">
                 <div className="max-w-[1720px] mx-auto">
                     <div className="pavanity-site-footer__grid">
                         <div className="pavanity-site-footer__brand">
-                            <img src={logoLight} alt="Pavanity Global" />
+                            <h3 className="text-xl sm:text-2xl font-bold tracking-wider uppercase text-white mb-4">
+                                Keshav Chemical
+                            </h3>
 
                             <p className="pavanity-site-footer__headline">
-                                We support global food trade with
-                                <span>structured sourcing and export clarity</span>
+                                Construction Chemicals &
+                                <span>Tile Fixing Solutions</span>
                             </p>
 
                             <p className="pavanity-site-footer__copy">

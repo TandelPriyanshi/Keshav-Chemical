@@ -50,13 +50,13 @@ const globalMarketStats = [
     {
         id: 1,
         title: "05 Active Regions",
-        description: "Priority international trade coverage",
+        description: "Comprehensive supply and distribution coverage",
         icon: <FaGlobeAmericas className="text-xl" />,
     },
     {
         id: 2,
-        title: "Buyer-Ready Documentation",
-        description: "Aligned for recurring commercial discussions",
+        title: "Project-Ready Documentation",
+        description: "Aligned for consistent project implementation",
         icon: <FaCheckCircle className="text-xl" />,
     },
     {
@@ -86,8 +86,8 @@ export default function PavanityHomeV4() {
                             <FaShieldAlt className="text-2xl" />
                         </div>
                         <div className="pavanity-home-hero__metric-body">
-                            <h5>Export-Ready</h5>
-                            <p>International trade standards and shipment readiness</p>
+                            <h5>Project-Ready</h5>
+                            <p>Industry-standard formulations and supply readiness</p>
                         </div>
                     </div>
 
@@ -97,7 +97,7 @@ export default function PavanityHomeV4() {
                         </div>
                         <div className="pavanity-home-hero__metric-body">
                             <h5>Quality & Compliance</h5>
-                            <p>Buyer-aligned quality controls and documentation support</p>
+                            <p>Rigorous quality controls and product certification support</p>
                         </div>
                     </div>
 
@@ -106,8 +106,8 @@ export default function PavanityHomeV4() {
                             <FaGlobeAmericas className="text-2xl" />
                         </div>
                         <div className="pavanity-home-hero__metric-body">
-                            <h5>International Trade</h5>
-                            <p>Structured sourcing for long-term B2B relationships</p>
+                            <h5>Distribution Network</h5>
+                            <p>Reliable supply for long-term dealer & project relations</p>
                         </div>
                     </div>
                 </div>
@@ -125,8 +125,8 @@ export default function PavanityHomeV4() {
                         >
                             <h2 className="text-2xl sm:text-3xl lg:text-4xl">Business Continuity</h2>
                             <p>
-                                Structured export supply for long-term B2B partnerships,
-                                with predictable schedules, compliance support, and clear
+                                Structured product supply for long-term B2B partnerships,
+                                with predictable schedules, technical support, and clear
                                 commercial alignment.
                             </p>
                         </div>
@@ -182,8 +182,8 @@ export default function PavanityHomeV4() {
                                     Our Product Divisions
                                 </h2>
                                 <p className="mt-4 text-base md:text-lg text-[var(--pavanity-text)] leading-8">
-                                    Export supply across core food and ingredient categories,
-                                    tailored to global buyers, distributors, and HoReCa partners.
+                                    Product supply across core construction chemical and tile fixing categories,
+                                    tailored to builders, distributors, and dealer networks.
                                 </p>
                             </div>
                             <Link to="/products" className="pavanity-card-link inline-flex items-center gap-3">
@@ -248,8 +248,8 @@ export default function PavanityHomeV4() {
                                     <p className="pavanity-home-scope-intro-panel__eyebrow">Commercial Scope</p>
                                     <h2 className="text-2xl sm:text-3xl lg:text-4xl">Commercial Scope</h2>
                                     <p className="pavanity-home-scope-intro-panel__copy">
-                                        Comprehensive export solutions for international food trade,
-                                        from sourcing and custom development to shipment readiness and
+                                        Comprehensive supply solutions for construction chemicals and tile fixing,
+                                        from manufacturing and custom formulation to project delivery and technical
                                         documentation.
                                     </p>
                                 </div>
@@ -318,10 +318,10 @@ export default function PavanityHomeV4() {
                 <div className="container-fluid">
                     <div className="max-w-[1720px] mx-auto pavanity-home-section-shell">
                         <div className="pavanity-section-intro pavanity-home-section-intro mb-10 md:mb-14" data-aos="fade-up">
-                            <h2 className="text-2xl sm:text-3xl lg:text-4xl">Global Markets</h2>
+                                    <h2 className="text-2xl sm:text-3xl lg:text-4xl">Markets & Network</h2>
                             <p>
-                                Serving food businesses across key global regions with a clear
-                                export structure and long-term supply continuity.
+                                Serving builders and dealer networks across key regions with a clear
+                                distribution structure and long-term supply continuity.
                             </p>
                         </div>
 
@@ -333,14 +333,14 @@ export default function PavanityHomeV4() {
                         >
                             <div className="pavanity-home-market-top">
                                 <div className="pavanity-home-market-board__header">
-                                    <span className="pavanity-home-market-board__eyebrow">Export Network</span>
+                                    <span className="pavanity-home-market-board__eyebrow">Distribution Network</span>
                                     <h3 className="pavanity-home-market-board__title">
-                                        Structured reach across key international trade regions
+                                        Structured reach across key regional supply networks
                                     </h3>
                                     <p className="pavanity-home-market-board__copy">
-                                        Buyer-focused supply planning, documentation coordination,
-                                        and recurring shipment support designed for long-term
-                                        international business.
+                                        Partner-focused logistics planning, technical documentation,
+                                        and recurring supply coordination designed for long-term
+                                        dealer and contractor support.
                                     </p>
                                 </div>
 
@@ -370,16 +370,16 @@ export default function PavanityHomeV4() {
                                                 <span className="pavanity-home-market-board__map-copy-eyebrow">
                                                     Coverage Map
                                                 </span>
-                                                <h4>Active export regions</h4>
+                                                <h4>Active supply regions</h4>
                                                 <p>
                                                     Simple visual coverage for the key markets we
-                                                    serve through structured B2B supply planning.
+                                                    serve through structured B2B logistics planning.
                                                 </p>
                                             </div>
 
                                             <img
                                                 src={worldMapSvg}
-                                                alt="World map showing Pavanity Global export coverage"
+                                                alt="Map showing Keshav Chemical distribution network"
                                                 className="pavanity-home-market-board__map-image"
                                                 loading="lazy"
                                             />
@@ -390,7 +390,7 @@ export default function PavanityHomeV4() {
                                 <div className="pavanity-home-market-panel">
                                     <div className="pavanity-home-market-panel__header">
                                         <p className="pavanity-home-market-panel__eyebrow">Active Regions</p>
-                                        <h4>Countries and regions in our current export network</h4>
+                                        <h4>Dealer networks and supply regions in our current network</h4>
                                         <span className="pavanity-home-market-panel__badge">
                                             {String(globalMarkets.length).padStart(2, "0")} Regions
                                         </span>
@@ -407,7 +407,7 @@ export default function PavanityHomeV4() {
                                                 </span>
                                                 <div className="pavanity-home-market-panel__copy">
                                                     <span className="pavanity-home-market-panel__item-eyebrow">
-                                                        Export Region
+                                                        Supply Region
                                                     </span>
                                                     <h5>{market.region}</h5>
                                                 </div>

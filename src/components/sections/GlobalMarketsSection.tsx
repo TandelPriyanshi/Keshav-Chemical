@@ -9,10 +9,10 @@ export default function GlobalMarketsSection() {
           {/* Section Header */}
           <div className="text-center mb-8 md:mb-12" data-aos="fade-up">
             <h3 className="leading-none text-2xl md:text-3xl text-title dark:text-white font-semibold">
-              Global Export Presence
+              Regional Presence & Network
             </h3>
             <p className="mt-3 text-title dark:text-white-light">
-              Serving food businesses across key global regions.
+              Serving dealers, contractors, and project networks across key regions.
             </p>
           </div>
 

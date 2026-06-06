@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // Images
 import bg from '../../assets/img/quality.jpg'
-import qualityImage from '../../assets/img/quality_full.jpg' // Placeholder
 
 // Icons 
 import { FaShieldAlt, FaClipboardCheck, FaSeedling, FaBoxOpen, FaTags, FaShippingFast, FaListAlt } from 'react-icons/fa'
@@ -19,7 +18,7 @@ const qualityProcesses = [
     {
         title: "Sourcing Verification",
         description:
-            "Agricultural products are sourced through direct farmers and regional suppliers with origin details and agreed quality parameters reviewed prior to export coordination.",
+            "Chemical materials are sourced and manufactured under strict quality checks, with technical safety parameters reviewed prior to dispatch coordination.",
         icon: <FaSeedling className="text-2xl" />,
     },
     {
@@ -57,40 +56,38 @@ const qualityProcesses = [
 const containerCapacityTables = [
     {
         index: "01",
-        title: "Dehydrated Garlic Products",
+        title: "Tile Adhesives (Powder Bags)",
         eyebrow: "Container Schedule",
         variantCount: "5 Variants",
         summary: [
             { label: "20' FCL", value: "Up to 15 MT" },
-            { label: "40' FCL", value: "Up to 24 MT" },
-            { label: "Packing", value: "20 KG / 25 KG" },
+            { label: "40' FCL", value: "Up to 25 MT" },
+            { label: "Packing", value: "20 KG / 40 KG" },
         ],
         columns: ["Sr No.", "Product", "20' FCL", "40' FCL", "Packing"],
         rows: [
-            ["1", "Dehydrated Garlic Cloves", "12 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["2", "Dehydrated Garlic Powder", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["3", "Dehydrated Garlic Granules", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["4", "Dehydrated Garlic Minced", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["5", "Dehydrated Garlic Chopped", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
+            ["1", "KESHAV KC-1 Gray Adhesive", "15 MT", "25 MT", "20 KG bag packing (approx 750 / 1250 bags)"],
+            ["2", "KESHAV KC-2 Gray Adhesive", "15 MT", "25 MT", "20 KG bag packing (approx 750 / 1250 bags)"],
+            ["3", "KESHAV KC-3 High Bond", "15 MT", "25 MT", "20 KG bag packing (approx 750 / 1250 bags)"],
+            ["4", "KESHAV KC-4 White Adhesive", "15 MT", "25 MT", "20 KG bag packing (approx 750 / 1250 bags)"],
+            ["5", "KESHAV BLOCK FIX Mortar", "15 MT", "25 MT", "20 KG / 40 KG bag packing options"],
         ],
     },
     {
         index: "02",
-        title: "Dehydrated Onion Products (White/Red/Pink)",
+        title: "Liquid Admixtures & Care Products",
         eyebrow: "Container Schedule",
-        variantCount: "5 Variants",
+        variantCount: "3 Variants",
         summary: [
-            { label: "20' FCL", value: "7 MT to 15 MT" },
-            { label: "40' FCL", value: "16 MT to 24 MT" },
-            { label: "Packing", value: "14 KG / 20 KG / 25 KG" },
+            { label: "20' FCL", value: "12 MT to 15 MT" },
+            { label: "40' FCL", value: "20 MT to 24 MT" },
+            { label: "Packing", value: "1L / 5L / 20L Drums" },
         ],
         columns: ["Product", "20' FCL", "40' FCL", "Packing"],
         rows: [
-            ["Dehydrated White/Red/Pink Onion Flakes", "7 MT", "16 MT", "14 KG Paper bag inside poly bag"],
-            ["Dehydrated White/Red/Pink Onion Powder", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["Dehydrated White/Red/Pink Onion Chopped", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["Dehydrated White/Red/Pink Onion Granules", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
-            ["Dehydrated White/Red/Pink Onion Minced", "14–15 MT", "24 MT", "20 KG / 25 KG Box packing inside poly bag"],
+            ["KESHAV SBR LATEX Bonding Agent", "12 MT", "22 MT", "1L / 5L / 20L plastic containers & drums"],
+            ["KESHAV TILE CLEANER Acid Base", "12 MT", "22 MT", "1L / 5L / 20L plastic containers"],
+            ["KESHAV GROUT ADMIXTURE Liquid", "12 MT", "22 MT", "1L / 5L plastic bottles"],
         ],
     },
 ] as const;
@@ -99,17 +96,17 @@ const containerCapacityHighlights = [
     {
         title: "20' FCL Range",
         value: "Up to 15 MT",
-        description: "Standard export loading support for garlic and onion lines.",
+        description: "Standard loading support for adhesive and grout shipments.",
     },
     {
         title: "40' FCL Range",
-        value: "Up to 24 MT",
+        value: "Up to 25 MT",
         description: "Higher-volume dispatch capacity for recurring bulk programs.",
     },
     {
         title: "Packing Format",
-        value: "14 KG to 25 KG",
-        description: "Buyer-ready packing formats aligned with container efficiency.",
+        value: "20 KG to 40 KG / drums",
+        description: "Standard packing formats aligned with logistics efficiency.",
     },
 ] as const;
 
@@ -130,7 +127,7 @@ const stuffingCapacityHighlights = [
     {
         title: "Without Pallet",
         value: "Up to 20 MT",
-        description: "Higher-volume stuffing format for bulk psyllium husk dispatch.",
+        description: "Higher-volume stuffing format for bulk adhesive powder dispatch.",
     },
     {
         title: "With Pallets",
@@ -140,7 +137,7 @@ const stuffingCapacityHighlights = [
     {
         title: "Container Formats",
         value: "20 ft / 40 ft",
-        description: "Standard export-ready loading schedules for two common container sizes.",
+        description: "Standard loading schedules for two common container sizes.",
     },
 ] as const;
 
@@ -179,17 +176,16 @@ export default function QualityCompliance() {
                     {/* Image Column */}
                     <div className="pavanity-split-panel__media lg:pr-10 2xl:pr-0 relative">
                         <div>
-                            <img className="object-cover w-full" src={qualityImage} alt="Quality & Food Safety"/>
                         </div>
                     </div>
 
                     {/* Content Column */}
-                    <div className="pavanity-split-panel__content pavanity-logo-watermark-surface flex items-center py-8 sm:py-12 px-5 sm:px-12 md:px-8 lg:pr-12 lg:pl-16 2xl:pl-[160px]">
+                    <div className="pavanity-logo-watermark-surface flex items-center py-8 sm:py-12 px-5 sm:px-12 md:px-8 lg:pr-12 lg:pl-16 2xl:pl-[160px]">
                         <div className="lg:max-w-[600px]">
                             <div className="pavanity-icon-panel">
                                 <FaShieldAlt className="size-16 text-white" />
                             </div>
-                            <h2 className="font-medium leading-none mt-4 md:mt-6 text-2xl md:text-3xl">
+                            <h2 className="font-medium leading-none mt-4 md:mt-6 text-2xl md:text-3xl text-stone-900">
                                 Quality & Compliance Approach
                             </h2>
                             <p className="mt-3 text-base sm:text-lg">
@@ -277,9 +273,9 @@ export default function QualityCompliance() {
                                 Container Load Capacity
                             </h3>
                             <p className="pavanity-capacity-intro-panel__copy">
-                                Standard FCL capacity for dehydrated onion and garlic products,
-                                structured to support dispatch planning, bulk export coordination,
-                                and consistent shipment readiness.
+                                Standard FCL capacity for construction chemicals and adhesives,
+                                structured to support dispatch planning, bulk shipment coordination,
+                                and consistent delivery readiness.
                             </p>
                         </div>
 
@@ -394,8 +390,8 @@ export default function QualityCompliance() {
                                     Stuffing Capacity – Container Loading
                                 </h3>
                                 <p className="pavanity-stuffing-intro-panel__copy">
-                                    Maximum loading capacity for Psyllium Husk containers, structured
-                                    for clear export planning across palletized and non-palletized dispatch formats.
+                                    Maximum loading capacity for powder and liquid shipments, structured
+                                for clear dispatch planning across palletized and non-palletized formats.
                                 </p>
                             </div>
 
@@ -428,7 +424,7 @@ export default function QualityCompliance() {
                                     <div>
                                         <p className="pavanity-stuffing-table__eyebrow">Container Loading Matrix</p>
                                         <h4 className="text-white text-xl md:text-2xl font-semibold">
-                                            Psyllium Husk Stuffing Schedule
+                                            Powder & Liquid Stuffing Schedule
                                         </h4>
                                     </div>
                                 </div>

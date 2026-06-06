@@ -35,411 +35,133 @@ type DivisionDetail = {
 
 // Product category detailed content - Export-focused
 const divisionDetails: Record<string, DivisionDetail> = {
-    "white-onion": {
+    "tile-adhesives": {
         overview:
-            "Bulk-supplied dehydrated white onion products for international B2B buyers, food manufacturers, and HoReCa distribution. Processed under controlled dehydration conditions to meet export quality standards and buyer specifications.",
+            "Bulk-supplied polymer-modified cementitious tile adhesives for B2B distributors, building material suppliers, and construction projects. Formulated under strict manufacturing conditions to ensure high bond strength, flexibility, and compliance with industrial standards.",
         categories: [
             {
-                name: "Dehydrated White Onion",
-                examples: "White Onion Powder, White Onion Flakes, White Onion Granules, White Onion Chopped, White Onion Minced",
+                name: "Cementitious Adhesives",
+                examples: "KESHAV KC-1 Gray, KESHAV KC-2 Standard, KESHAV KC-3 High Bond",
             },
             {
-                name: "Custom Blends",
-                examples: "Onion Mix, Seasoning Bases, Curry Powders",
+                name: "Premium & White Adhesives",
+                examples: "KESHAV KC-4 White, KESHAV KC-6 No Limit White",
             },
             {
-                name: "Food-Grade Ingredients",
-                examples: "Culinary Applications, Seasoning Manufacturing",
+                name: "Specialized Adhesives",
+                examples: "KESHAV PU Adhesive (Polyurethane Base), Large Format Tile Adhesive",
             },
         ],
         applications: [
-            "Food Manufacturing & Processing",
-            "Instant Food Products",
-            "HoReCa (Hotels, Restaurants, Catering)",
-            "Ready-to-Eat Meal Manufacturers",
+            "Residential & Commercial Wall/Floor Tiling",
+            "Large Format Tile & Stone Installations",
+            "Interior & Exterior Tiling Works",
+            "High-Bond Heavy Duty Building Work",
         ],
         packaging:
-            "Bulk supply in 10kg, 15kg, 20kg cartons with inner poly liners. Custom packaging configurations available for export orders.",
+            "Supplied in standard 20 kg and 40 kg moisture-resistant laminated paper/HDPE bags. Custom brand packaging and palletized shipping configurations available.",
         quality:
-            "Food-grade dehydration facility. Moisture content controlled per specifications. Microbiological testing. Export documentation and certificates of analysis provided.",
+            "ISO 9001:2015 manufactured. Adhesion strength, open time, and slip resistance tested per EN/ANSI specifications. Batch test reports and technical data sheets provided.",
     },
-    "red-onion": {
+    "grouts": {
         overview:
-            "Bulk-supplied dehydrated red onion products for international B2B buyers, food manufacturers, and HoReCa distribution. Processed under controlled dehydration conditions to meet export quality standards and buyer specifications.",
+            "High-performance joint fillers and grouting systems for ceramic, vitrified, and natural stone installations. Our range covers cementitious polymer-modified grouts, multi-component epoxy grouts, and performance-enhancing liquid admixtures.",
         categories: [
             {
-                name: "Dehydrated Red Onion",
-                examples: "Red Onion Powder, Red Onion Flakes, Red Onion Granules, Red Onion Chopped, Red Onion Minced",
+                name: "Epoxy Grouts",
+                examples: "KESHAV Epoxy Grout, Premium Epoxy Grout, Sparkle Epoxy Grout (Decorative)",
             },
             {
-                name: "Custom Blends",
-                examples: "Onion Mix, Seasoning Bases, Curry Powders",
+                name: "Polymer Grouts",
+                examples: "Cementitious Polymer Grout, Joint Fillers",
             },
             {
-                name: "Food-Grade Ingredients",
-                examples: "Culinary Applications, Seasoning Manufacturing",
+                name: "Grout Admixtures",
+                examples: "Liquid Grout Admixture, Latex Joint Fortifier",
             },
         ],
         applications: [
-            "Food Manufacturing & Processing",
-            "Instant Food Products",
-            "HoReCa (Hotels, Restaurants, Catering)",
-            "Ready-to-Eat Meal Manufacturers",
+            "Kitchens, Bathrooms, and Wet Areas",
+            "Heavy-Traffic Commercial Flooring",
+            "Designer Wall & Floor Tile Grouting",
+            "Industrial Grade Joint Sealing",
         ],
         packaging:
-            "Bulk supply in 10kg, 15kg, 20kg cartons with inner poly liners. Custom packaging configurations available for export orders.",
+            "Cementitious grouts in bags (1kg to 10kg), Epoxy systems in pre-measured multi-component kits, and Liquid admixtures in plastic containers.",
         quality:
-            "Food-grade dehydration facility. Moisture content controlled per specifications. Microbiological testing. Export documentation and certificates of analysis provided.",
+            "Formulated for water repellency, stain resistance, and color uniformity. Tested against international standards for compressive and flexural strength.",
     },
-    "pink-onion": {
+    "construction-chemicals": {
         overview:
-            "Bulk-supplied dehydrated pink onion products for international B2B buyers, food manufacturers, and HoReCa distribution. Processed under controlled dehydration conditions to meet export quality standards and buyer specifications.",
+            "Advanced construction chemicals formulated to enhance building durability, structural bonding, and long-term water protection. Includes high-solids SBR latex, acrylic bonding agents, and integral waterproofing compounds.",
         categories: [
             {
-                name: "Dehydrated Pink Onion",
-                examples: "Pink Onion Powder, Pink Onion Flakes, Pink Onion Granules, Pink Onion Chopped, Pink Onion Minced",
+                name: "Latex & Bonding Agents",
+                examples: "KESHAV SBR LATEX Bonding Agent, Acrylic Modifiers",
             },
             {
-                name: "Custom Blends",
-                examples: "Onion Mix, Seasoning Bases, Curry Powders",
-            },
-            {
-                name: "Food-Grade Ingredients",
-                examples: "Culinary Applications, Seasoning Manufacturing",
+                name: "Waterproofing Systems",
+                examples: "Liquid Admixtures, Waterproofing Cement Additives",
             },
         ],
         applications: [
-            "Food Manufacturing & Processing",
-            "Instant Food Products",
-            "HoReCa (Hotels, Restaurants, Catering)",
-            "Ready-to-Eat Meal Manufacturers",
+            "Structural Concrete Bonding Slurry",
+            "Waterproofing Underlays & Roof Coatings",
+            "Spalling Concrete Repairs & Plasters",
+            "Structural Modification & Admixtures",
         ],
         packaging:
-            "Bulk supply in 10kg, 15kg, 20kg cartons with inner poly liners. Custom packaging configurations available for export orders.",
+            "Available in 1L, 5L, 20L, and 200L HDPE containers/drums to suit project requirements. Custom private label options available.",
         quality:
-            "Food-grade dehydration facility. Moisture content controlled per specifications. Microbiological testing. Export documentation and certificates of analysis provided.",
+            "Manufacturing processes certified to ISO standards. Formulated for high solids content and chemical stability. Material safety data sheets (MSDS) provided.",
     },
-    "garlic": {
+    "tile-care-products": {
         overview:
-            "Bulk-supplied dehydrated garlic products for international B2B buyers, food manufacturers, and HoReCa distribution. Processed under controlled dehydration conditions to meet export quality standards and buyer specifications.",
+            "Formulated post-installation cleaning and maintenance solutions designed to preserve the aesthetic and structural integrity of tiled surfaces. Easily removes cementitious residues, grout haze, and construction grime.",
         categories: [
             {
-                name: "Dehydrated Garlic",
-                examples: "Garlic Powder, Garlic Granules, Garlic Chopped, Garlic Minced, Garlic Cloves",
+                name: "Cleaning Formulations",
+                examples: "KESHAV TILE CLEANER Acid Base, Heavy Duty Cleaner",
             },
             {
-                name: "Custom Blends",
-                examples: "Garlic Mix, Seasoning Bases, Curry Powders",
-            },
-            {
-                name: "Food-Grade Ingredients",
-                examples: "Culinary Applications, Seasoning Manufacturing",
+                name: "Maintenance & Sealing",
+                examples: "Tile Sealers, Surface Protectors",
             },
         ],
         applications: [
-            "Food Manufacturing & Processing",
-            "Instant Food Products",
-            "HoReCa (Hotels, Restaurants, Catering)",
-            "Ready-to-Eat Meal Manufacturers",
+            "Post-Installation Cement Residue Removal",
+            "Grout Haze & Efflorescence Cleaning",
+            "Regular Maintenance of Tiled Areas",
+            "Stone Surface Care and Protection",
         ],
         packaging:
-            "Bulk supply in 10kg, 15kg, 20kg cartons with inner poly liners. Custom packaging configurations available for export orders.",
+            "Supplied in 1L, 5L, and 20L HDPE jerry cans and bottles designed for safe handling and export logistics.",
         quality:
-            "Food-grade dehydration facility. Moisture content controlled per specifications. Microbiological testing. Export documentation and certificates of analysis provided.",
+            "Non-damaging formulation for compatible tile surfaces. Tested for safe pH limits, surfactant activity, and effective residue breakdown.",
     },
-    "seeds-dietary-fibers": {
+    "block-jointing-mortar": {
         overview:
-            "Bulk-supplied seeds and dietary fibers for international B2B buyers, food manufacturers, and HoReCa distribution. Processed and packed under controlled conditions to meet export quality standards.",
+            "Pre-mixed, high-strength thin-bed jointing mortar designed for laying AAC blocks, fly ash bricks, and concrete blocks. Provides high bond strength, workability, and thermal insulation values.",
         categories: [
             {
-                name: "Nutritional Seeds",
-                examples:
-                    "Chia Seeds, Flax Seeds, Pumpkin Seeds, Sunflower Seeds",
+                name: "Thin Bed Mortar",
+                examples: "KESHAV BLOCK FIX Jointing Mortar",
             },
             {
-                name: "Specialty Seeds",
-                examples: "Sesame Seeds, Poppy Seeds, Hemp Seeds, Basil Seeds",
-            },
-            {
-                name: "Dietary Fibers",
-                examples: "Psyllium Husk, Wheat Bran, Oat Fiber, Inulin",
-            },
-            {
-                name: "Seed Powders",
-                examples: "Flaxseed Powder, Chia Powder, Hemp Protein",
+                name: "Masonry Additives",
+                examples: "Pre-mix Cementitious Block Mortars",
             },
         ],
         applications: [
-            "Health Food Manufacturing",
-            "Functional Food Products",
-            "Supplement Industry",
-            "Bakery & Snack Ingredients",
+            "AAC Block Masonry Work",
+            "Fly Ash Brick Laying",
+            "Concrete Block Masonry Walls",
+            "Thin-Bed Jointing Applications",
         ],
         packaging:
-            "Bulk supply in 10kg, 15kg, 25kg units with moisture-proof packaging. Custom configurations available for export orders.",
+            "Available in standard 40 kg moisture-resistant laminated woven sacks. Container shipment scheduling available.",
         quality:
-            "Clean sorting facility. Purity testing. Microbiological testing. Organic certification available for select products. Export documentation provided.",
-    },
-    "jaggery-natural-sweeteners": {
-        overview:
-            "Bulk-supplied jaggery, natural sweeteners, and sugar alternatives for international B2B buyers, food manufacturers, and HoReCa distribution. Processed to meet export quality standards and destination market requirements.",
-        categories: [
-            {
-                name: "Jaggery Products",
-                examples: "Jaggery Powder, Jaggery Cubes, Liquid Jaggery",
-            },
-            {
-                name: "Natural Sweeteners",
-                examples: "Coconut Sugar, Date Sugar, Palm Sugar",
-            },
-            {
-                name: "Sugar Alternatives",
-                examples: "Stevia, Erythritol, Monk Fruit Sweetener",
-            },
-            {
-                name: "Specialty Sugars",
-                examples: "Muscovado, Demerara, Raw Cane Sugar",
-            },
-        ],
-        applications: [
-            "Health Food Manufacturing",
-            "Sugar-Free Product Development",
-            "Beverage Industry",
-            "Bakery & Confectionery",
-        ],
-        packaging:
-            "Bulk supply in 15kg, 20kg, 25kg units. Custom packaging available for export specifications.",
-        quality:
-            "Food-grade processing facility. Purity testing. Moisture content control. Export documentation and certificates of analysis provided.",
-    },
-    "nutritional-value-added-ingredients": {
-        overview:
-            "Bulk-supplied nutritional and value-added food ingredients for international B2B buyers, food manufacturers, and HoReCa distribution. Formulated and processed to meet export quality standards and functional specifications.",
-        categories: [
-            {
-                name: "Protein Ingredients",
-                examples:
-                    "Pea Protein, Soy Protein, Rice Protein, Hemp Protein",
-            },
-            {
-                name: "Superfoods",
-                examples: "Spirulina, Moringa Powder, Wheatgrass, Chlorella",
-            },
-            {
-                name: "Fortification Ingredients",
-                examples:
-                    "Vitamin Premixes, Mineral Blends, Functional Additives",
-            },
-            {
-                name: "Value-Added Powders",
-                examples:
-                    "Nutritional Mixes, Health Drink Bases, Supplement Powders",
-            },
-        ],
-        applications: [
-            "Functional Food Manufacturing",
-            "Supplement Industry",
-            "Health & Wellness Products",
-            "Fortified Food Products",
-        ],
-        packaging:
-            "Bulk supply in 10kg, 15kg, 25kg units with moisture-proof and light-resistant packaging. Custom configurations for export.",
-        quality:
-            "GMP facility for nutritional ingredients. Nutritional analysis and testing. Heavy metal testing. Export documentation and specifications provided.",
-    },
-    oilseeds: {
-        overview:
-            "High-quality oilseeds including sesame seeds, chia seeds, and premium peanuts for international B2B buyers and food manufacturers. Sourced from certified Indian farms and processed to meet export quality standards. Suitable for tahini, bakery, and Asian cuisine.",
-        categories: [
-            {
-                name: "Sesame Seeds",
-                examples: "Black Sesame Seeds, Hulled Sesame Seeds, Natural Sesame Seeds",
-            },
-            {
-                name: "Super Seeds",
-                examples: "Chia Seeds",
-            },
-            {
-                name: "Premium Peanuts",
-                examples: "Java Peanuts, TJ Peanuts, Bold Peanuts",
-            },
-            {
-                name: "Roasted & Raw",
-                examples: "Roasted Seeds, Raw Seeds for Processing",
-            },
-        ],
-        applications: [
-            "Bakery & Confectionery",
-            "Health Food Manufacturing",
-            "Oil Extraction Industry",
-            "Tahini & Paste Production",
-        ],
-        packaging:
-            "Bulk supply in 25kg, 50kg bags with moisture-proof packaging. Container loads available for export.",
-        quality:
-            "Certified processing facility. Purity testing. Microbiological analysis. Export documentation provided.",
-    },
-    "psyllium-husk": {
-        overview:
-            "Bulk-supplied psyllium seed and husk ingredients for international B2B buyers across nutraceutical, food, pharmaceutical, and animal nutrition segments. Export supply is aligned with purity requirements, packaging needs, and destination market documentation.",
-        categories: [
-            {
-                name: "Psyllium Seeds",
-                examples: "Premium quality seeds from Gujarat and Rajasthan",
-            },
-            {
-                name: "Psyllium Husk",
-                examples: "85%, 95%, 98%, 99% Purity grades",
-            },
-            {
-                name: "Psyllium Husk Powder",
-                examples: "80-100 mesh, 100-120 mesh - Food & Pharmaceutical grade",
-            },
-            {
-                name: "Psyllium Khakha Powder",
-                examples: "Fiber-rich byproduct for animal feed and agriculture",
-            },
-            {
-                name: "Psyllium Cattle Feed Fiber",
-                examples: "Natural fiber supplement for dairy and farm animals",
-            },
-        ],
-        applications: [
-            "Pharmaceutical & Nutraceutical Industry",
-            "Food & Beverage Manufacturing",
-            "Animal Feed & Livestock Nutrition",
-            "Agriculture & Soil Conditioning",
-            "Biodegradable & Industrial Products",
-        ],
-        packaging:
-            "Bulk supply in 25kg bags with inner poly liners. Custom packaging available for export orders.",
-        quality:
-            "GMP-certified facility. Heavy metal testing. Microbial analysis. Full traceability and export documentation.",
-    },
-    jaggery: {
-        overview:
-            "Traditional Indian jaggery (unrefined cane sugar) in cubes and powder form for health-conscious food manufacturers and confectionery industries worldwide.",
-        categories: [
-            {
-                name: "Jaggery Cubes",
-                examples: "Small Cubes, Large Cubes, Cut Pieces",
-            },
-            {
-                name: "Jaggery Powder",
-                examples: "Fine Powder, Granulated Form",
-            },
-            {
-                name: "Organic Jaggery",
-                examples: "Certified Organic, Natural Processing",
-            },
-            {
-                name: "Specialty Products",
-                examples: "Flavored Jaggery, Export Grade",
-            },
-        ],
-        applications: [
-            "Confectionery Manufacturing",
-            "Beverage Industry",
-            "Health Food Products",
-            "Traditional Sweet Making",
-        ],
-        packaging:
-            "Bulk supply in 10kg, 25kg units. Custom packaging available for export markets.",
-        quality:
-            "Food-grade processing. Chemical-free production. Quality testing. Export documentation and certifications provided.",
-    },
-    "agro-allied-food-products": {
-        overview:
-            "Nutritional food ingredients including moringa powder, peanut butter, and peanut oil cake for health food and nutraceutical industries.",
-        categories: [
-            {
-                name: "Moringa Products",
-                examples: "Moringa Powder",
-            },
-            {
-                name: "Peanut Products",
-                examples: "Peanut Butter, Peanut Oil Cake",
-            },
-            {
-                name: "Nutritional Powders",
-                examples: "Protein-Rich, Superfood Blends",
-            },
-            {
-                name: "Custom Formulations",
-                examples: "Private Label, OEM Products",
-            },
-        ],
-        applications: [
-            "Health Food Manufacturing",
-            "Supplement Industry",
-            "Functional Food Products",
-            "Animal Feed Industry",
-        ],
-        packaging:
-            "Bulk supply in 10kg, 15kg, 25kg units with moisture-proof and light-resistant packaging.",
-        quality:
-            "GMP facility for nutritional ingredients. Nutritional analysis. Heavy metal testing. Export documentation provided.",
-    },
-    spices: {
-        overview:
-            "Export-quality whole and powdered spices sourced from India's premier spice-growing regions with full traceability and quality assurance.",
-        categories: [
-            {
-                name: "Seeds",
-                examples: "Cumin Seeds, Fenugreek Seeds, Mustard Seeds, Fennel Seeds",
-            },
-            {
-                name: "Whole Spices",
-                examples: "Cinnamon, Cloves, Black Pepper, Cardamom",
-            },
-            {
-                name: "Powdered Spices",
-                examples: "Chilli Powder, Turmeric Powder, Spice Blends",
-            },
-            {
-                name: "Export Grades",
-                examples: "A-Grade, Export Quality, Organic Certified",
-            },
-        ],
-        applications: [
-            "Food Manufacturing & Processing",
-            "Spice Blend Production",
-            "HoReCa Supply",
-            "Retail Packaging & Distribution",
-        ],
-        packaging:
-            "Bulk supply in 10kg, 15kg, 25kg bags with inner poly liners. Custom packaging for export.",
-        quality:
-            "Steam sterilization available. Purity testing. Microbiological analysis. Full traceability and export documentation.",
-    },
-    "value-added-dehydrated-products": {
-        overview:
-            "Premium value-added dehydrated onion products including toasted onion chopped, toasted onion kibbled, and dehydrated fried onion. Processed in India with controlled fat levels and multiple grade options for food manufacturers, snack producers, and ready-to-eat meal applications.",
-        categories: [
-            {
-                name: "Toasted Onion",
-                examples: "Toasted Onion Chopped, Toasted Onion Kibbled",
-            },
-            {
-                name: "Fried Onion",
-                examples: "Dehydrated Fried Onion (Flakes)",
-            },
-            {
-                name: "Grades & Cuts",
-                examples: "A Grade, B Grade, Commercial Grade – Flakes, Chopped – 12% or 8% Fat",
-            },
-        ],
-        applications: [
-            "Snack Flavouring & Coated Snacks",
-            "Ready-to-Fry Mixes & Meal Kits",
-            "Sauce Bases & Industrial Gravy",
-            "Plant-Based & Instant Foods",
-            "Seasoning Blends & Dry Rubs",
-        ],
-        packaging:
-            "Flakes: 14kg strong poly bag in paper bag or 20kg strong poly bag in 5-ply carton. Custom packing available.",
-        quality:
-            "Food-grade value-added processing. Fat levels 12% or 8%. A Grade, B Grade, Commercial Grade and custom grades. Origin India. Export documentation and certificates of analysis provided.",
+            "Tested for compressive strength, water retention, and tensile adhesion. Complies with ASTM and Indian Standards for masonry mortars.",
     },
 };
 
@@ -475,9 +197,9 @@ export default function DivisionDetail() {
               overview: `Export-ready supply for ${category.name} with structured commercial coordination, buyer-aligned documentation, and quality support for international B2B markets.`,
               categories: [],
               applications: [
-                  "International B2B sourcing",
-                  "Food manufacturing",
-                  "HoReCa distribution",
+                  "International B2B supply",
+                  "Construction projects",
+                  "Dealer distribution networks",
               ],
               packaging:
                   "Packaging configurations can be aligned to buyer requirements and shipment needs.",
@@ -494,7 +216,7 @@ export default function DivisionDetail() {
         {
             title: "Applications",
             value: `${details.applications.length} Sectors`,
-            description: "Commercial use cases supported across food manufacturing and trade channels.",
+            description: "Commercial use cases supported across construction projects and trade channels.",
         },
         {
             title: "Buyer Support",
@@ -510,14 +232,13 @@ export default function DivisionDetail() {
         <>
             <SeoHead
                 title={category.name}
-                description={metaDesc || `${category.name} – Export-grade from Pavanity Global. ${category.tagline}.`}
+                description={metaDesc || `${category.name} – Export-grade from Keshav Chemical. ${category.tagline}.`}
                 path={`/products/${slug}`}
             />
             {/* Navbar */}
             <NavbarPavanity />
 
             <main className="pavanity-products-page pavanity-products-detail-page">
-
             {/* ============================================ */}
             {/* BREADCRUMB SECTION */}
             {/* ============================================ */}
@@ -770,7 +491,7 @@ export default function DivisionDetail() {
             {/* ============================================ */}
             {/* APPLICATIONS SECTION */}
             {/* ============================================ */}
-            <div className="pavanity-products-section pavanity-products-section--applications s-py-100">
+            <div className="pavanity-products-section pavanity-products-section--catalog s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
                 <div className="container-fluid">
                     <div
                         className="pavanity-surface-card-soft pavanity-products-info-panel max-w-[1720px] mx-auto p-8 md:p-12"

@@ -19,25 +19,25 @@ const aboutFeatureCards = [
     {
         title: "Quality & Compliance",
         description:
-            "Trade conducted in alignment with applicable food safety regulations, certifications, and destination requirements.",
+            "Manufacturing conducted in alignment with applicable industrial safety regulations, certifications, and quality requirements.",
         icon: <FaShieldAlt className="text-2xl" />,
     },
     {
         title: "Supply Continuity",
         description:
-            "Export supply structured to support recurring volumes, predictable schedules, and long-term planning.",
+            "Product supply structured to support recurring volumes, predictable schedules, and long-term planning.",
         icon: <FaIndustry className="text-2xl" />,
     },
     {
-        title: "Custom Product Development",
+        title: "Custom Formulations",
         description:
-            "Export supply under buyer specifications and custom formulations, subject to applicable market and regulatory requirements.",
+            "Product supply under buyer specifications and custom formulations, subject to applicable market and regulatory requirements.",
         icon: <FaAward className="text-2xl" />,
     },
     {
-        title: "B2B & HoReCa Focus",
+        title: "B2B & Dealer Focus",
         description:
-            "Supply of food ingredients and agri-based products for international B2B and HoReCa distribution channels.",
+            "Supply of construction chemicals and tile adhesives for B2B, contractor, and dealer distribution channels.",
         icon: <FaUsers className="text-2xl" />,
     },
 ] as const;
@@ -79,28 +79,28 @@ export default function AboutPavanity() {
                     {/* Image Column */}
                     <div className="pavanity-split-panel__media pavanity-about-overview__media lg:pr-10 2xl:pr-0 relative">
                         <div>
-                            <img className="object-cover w-full" src={aboutImage} alt="Pavanity Global - Food Export Company"/>
+                            <img className="object-cover w-full" src={aboutImage} alt="Keshav Chemical - Construction Chemicals & Tile Fixing Solutions"/>
                         </div>
                     </div>
 
                     {/* Content Column */}
                     <div className="pavanity-split-panel__content pavanity-about-overview__content pavanity-logo-watermark-surface flex items-center py-8 sm:py-12 px-5 sm:px-12 md:px-8 lg:pr-12 lg:pl-16 2xl:pl-[160px]">
                         <div className="lg:max-w-[600px]">
-                            <p className="pavanity-about-section-label">About Pavanity Global</p>
+                            <p className="pavanity-about-section-label">About Keshav Chemical</p>
                             <div className="pavanity-icon-panel pavanity-about-overview__icon">
                                 <FaIndustry className="size-16 text-white" />
                             </div>
                             <h2 className="pavanity-about-overview__title font-medium leading-none mt-4 md:mt-6 text-2xl md:text-3xl">
-                                About Pavanity Global
+                                About Keshav Chemical
                             </h2>
                             <p className="pavanity-about-overview__copy mt-3 text-base sm:text-lg">
-                                Pavanity Global is part of the Pavanity Group of Companies, specializing in agricultural sourcing and export coordination for food and agricultural ingredients to international B2B and HoReCa markets.
+                                Keshav Chemical specializes in manufacturing and supply coordination for high-quality construction chemicals and tile adhesives to B2B partners, contractors, and retail networks.
                             </p>
                             <p className="pavanity-about-overview__copy mt-3 text-base sm:text-lg">
-                                We specialize in structured sourcing and export supply aligned with buyer specifications, quality standards, and destination market regulations. Our product portfolio includes agricultural commodities, dehydrated products, natural food ingredients, and value-added food supplies tailored for bulk and private label requirements.
+                                We specialize in structured manufacturing and product supply aligned with contractor specifications, industry quality standards, and building regulations. Our product portfolio includes polymer modified tile adhesives, joint grouts, construction admixtures, SBR latex, and specialized tile care products tailored for project and private label requirements.
                             </p>
                             <p className="pavanity-about-overview__copy mt-3 text-base sm:text-lg">
-                                Our operations are designed to support consistency, compliance, and long-term supply continuity for international buyers. Pavanity Global focuses on transparent trade practices and export documentation support.
+                                Our operations are designed to support consistency, compliance, and long-term supply continuity for building projects. Keshav Chemical focuses on transparent trade practices, technical support, and documentation clearance.
                             </p>
                         </div>
                     </div>
@@ -126,13 +126,13 @@ export default function AboutPavanity() {
                         <div className="pavanity-icon-panel pavanity-about-features__icon">
                             <FaCheckCircle className="text-2xl" />
                         </div>
-                        <p className="pavanity-about-section-label">Why Pavanity Global</p>
+                        <p className="pavanity-about-section-label">Why Keshav Chemical</p>
                         <h3 className="pavanity-about-features__title font-medium leading-none mt-4 md:mt-6 text-2xl md:text-3xl">
-                            Why Pavanity Global
+                            Why Keshav Chemical
                         </h3>
                         <p className="pavanity-about-features__copy mt-3">
-                            Structured export supply for international food trade backed by
-                            compliance, continuity, and commercial clarity.
+                            Structured product supply for construction chemistry projects backed by
+                            quality compliance, supply continuity, and commercial clarity.
                         </p>
                     </div>
 

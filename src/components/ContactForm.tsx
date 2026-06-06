@@ -199,16 +199,11 @@ className="pavanity-form-control"
 
 <option value="">Select Product category</option>
 
-<option value="Dehydrated Red Onion">Dehydrated Red Onion</option>
-<option value="Dehydrated White Onion">Dehydrated White Onion</option>
-<option value="Dehydrated Pink Onion">Dehydrated Pink Onion</option>
-<option value="Dehydrated Garlic">Dehydrated Garlic</option>
-<option value="Oilseeds">Oilseeds</option>
-<option value="Psyllium Husk">Psyllium Husk</option>
-<option value="Jaggery">Jaggery</option>
-<option value="Agro and Allied Food Products">Agro and Allied Food Products</option>
-<option value="Spices">Spices</option>
-<option value="Value Added Dehydrated Products">Value Added Dehydrated Products</option>
+<option value="Tile Adhesives">Tile Adhesives</option>
+<option value="Grouts">Grouts</option>
+<option value="Construction Chemicals">Construction Chemicals</option>
+<option value="Tile Care Products">Tile Care Products</option>
+<option value="Block Jointing Mortar">Block Jointing Mortar</option>
 
 </select>
 

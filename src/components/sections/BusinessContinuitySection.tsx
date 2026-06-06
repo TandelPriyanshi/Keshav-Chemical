@@ -18,17 +18,17 @@ export default function BusinessContinuitySection() {
           {/* Section Header */}
           <div className="text-center mb-8 md:mb-12" data-aos="fade-up">
             <h3 className="leading-none text-2xl md:text-3xl text-title dark:text-white font-semibold">
-              Why Global Buyers Choose Us
+              Why Clients Choose Us
             </h3>
             <p className="mt-3 text-title dark:text-white-light max-w-2xl mx-auto">
-              Export supply structured for reliability, clarity, and compliance
+              Product supply structured for reliability, technical clarity, and performance
             </p>
           </div>
 
           {/* 3 Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 lg:gap-12" data-aos="fade-up" data-aos-delay="100">
             {businessContinuity.map((item) => (
-              <div key={item.id} className="text-center">
+              <div key={item.id} className="text-center bg-amber-50">
                 {/* Icon */}
                 <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-[10px] border border-primary text-primary">
                   {iconMap[item.icon]}

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Pavanity Global theme layer
  * Shared tokens + reusable layout primitives for the static React site.
  */
@@ -1019,6 +1019,7 @@ img {
 
 .pavanity-products-section {
     position: relative;
+    background-color: rgb(30 42 53 / var(--tw-bg-opacity));
 }
 
 .pavanity-products-section-intro {
@@ -1846,7 +1847,7 @@ img {
 }
 
 .pavanity-about-page {
-    background: linear-gradient(180deg, #f7f5ef 0%, #ffffff 18%, #f8f7f2 100%);
+    background: rgb(23 36 48 / var(--tw-bg-opacity));
 }
 
 .pavanity-about-hero::before {
@@ -2450,7 +2451,7 @@ img {
     border: 1px solid rgba(0, 113, 185, 0.18);
     border-radius: 999px;
     background: rgba(0, 113, 185, 0.08);
-    color: rgba(23, 23, 23, 0.46);
+    /* color: rgba(23, 23, 23, 0.46); */
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -4479,9 +4480,55 @@ img {
 .dark .pavanity-region-list > div,
 .dark .hubspot-form-wrapper,
 .dark .pavanity-split-panel,
-.dark .pavanity-split-panel__content {
-    background: var(--pavanity-surface);
-    border-color: rgba(255, 255, 255, 0.12);
+.dark .pavanity-split-panel__content,
+.dark .pavanity-home-scope-summary,
+.dark .pavanity-home-scope-summary__item,
+.dark .pavanity-private-intro-summary,
+.dark .pavanity-private-intro-summary__item,
+.dark .pavanity-products-catalog-summary,
+.dark .pavanity-products-catalog-summary__item,
+.dark .pavanity-products-spec-summary,
+.dark .pavanity-products-spec-summary__item,
+.dark .pavanity-capacity-summary,
+.dark .pavanity-capacity-summary__item,
+.dark .pavanity-stuffing-summary,
+.dark .pavanity-stuffing-summary__item,
+.dark .pavanity-home-market-board,
+.dark .pavanity-home-market-board__map-copy,
+.dark .pavanity-home-market-board__stat,
+.dark .pavanity-home-market-panel,
+.dark .pavanity-home-market-panel__item,
+.dark .pavanity-home-scope-shell,
+.dark .pavanity-private-intro-shell,
+.dark .pavanity-products-catalog-shell,
+.dark .pavanity-products-spec-shell,
+.dark .pavanity-capacity-shell,
+.dark .pavanity-stuffing-shell,
+.dark .pavanity-contact-shell,
+.dark .pavanity-stuffing-table,
+.dark .pavanity-private-capabilities-shell,
+.dark .pavanity-capacity-table,
+.dark .pavanity-capacity-table__summary-item,
+.dark .pavanity-products-application-card,
+.dark .pavanity-products-spec-card,
+.dark .pavanity-home-market-shell {
+    background: var(--pavanity-surface) !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .pavanity-home-market-board__map-shell {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        var(--pavanity-surface) !important;
+    background-size: 3.7rem 3.7rem, 3.7rem 3.7rem, auto;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .pavanity-home-market-panel__eyebrow,
+.dark .pavanity-home-market-panel__item-eyebrow,
+.dark .pavanity-home-market-board__map-copy-eyebrow {
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .dark .pavanity-table-card table th {
@@ -4519,6 +4566,56 @@ img {
 .dark .pavanity-scroll-top {
     background: rgba(18, 18, 18, 0.94);
     border-color: rgba(255, 255, 255, 0.12);
+}
+
+.dark .pavanity-header-rfq.rfq-button {
+    color: #121212 !important;
+}
+
+.dark .rfq-button {
+    color: #121212 !important;
+}
+
+.dark .pavanity-header-rfq__icon {
+    background: #121212 !important;
+    color: var(--pavanity-white) !important;
+}
+
+.dark .pavanity-products-catalog-summary__badge,
+.dark .pavanity-products-spec-summary__badge,
+.dark .pavanity-home-scope-summary__badge,
+.dark .pavanity-private-intro-summary__badge,
+.dark .pavanity-capacity-summary__badge,
+.dark .pavanity-stuffing-summary__badge {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dark .pavanity-capacity-table__summary-item span {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.dark .pavanity-stuffing-table__metric--secondary {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark .pavanity-private-process-card__eyebrow,
+.dark .pavanity-products-card__eyebrow {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.dark .pavanity-products-card__index,
+.dark .pavanity-products-spec-index,
+.dark .pavanity-products-application-card__index {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Watermark removal rules */
+.pavanity-logo-watermark-surface::after,
+.pavanity-home-section--continuity::before,
+.pavanity-products-info-panel::after,
+.pavanity-cta-panel::after {
+    display: none !important;
 }
 
 @media (min-width: 1024px) {

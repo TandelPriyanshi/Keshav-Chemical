@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-import logo from "../../assets/img/svg/logo.png";
-import logoLight from "../../assets/img/svg/logo-light.png";
+
 
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -40,7 +39,7 @@ export default function NavbarPavanity() {
     const [isScrolled, setIsScrolled] = useState(false);
 
     const isHomePage = location.pathname === "/";
-    const useLightBrand = isHomePage && !isScrolled;
+
 
     useEffect(() => {
         function handleScroll() {
@@ -76,12 +75,10 @@ export default function NavbarPavanity() {
                             : "pavanity-site-header__panel--inner",
                     ].join(" ")}
                 >
-                    <Link to="/" className="pavanity-site-brand" aria-label="Pavanity Global">
-                        <img
-                            src={useLightBrand ? logoLight : logo}
-                            alt="Pavanity Global"
-                            className="pavanity-site-brand__logo"
-                        />
+                    <Link to="/" className="pavanity-site-brand flex items-center no-underline" aria-label="Keshav Chemical">
+                        <span className="text-xl sm:text-2xl font-bold tracking-wider uppercase text-current">
+                            Keshav Chemical
+                        </span>
                     </Link>
 
                     <div className="pavanity-site-header__menu">

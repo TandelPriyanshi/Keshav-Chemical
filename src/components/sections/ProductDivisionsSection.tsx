@@ -13,7 +13,7 @@ export default function ProductDivisionsSection() {
               Our Product Categories
             </h3>
             <p className="mt-3 text-title dark:text-white-light">
-              Export supply across core food and agricultural ingredient categories.
+              Product supply across core construction chemicals and fixing solutions.
             </p>
           </div>
 
