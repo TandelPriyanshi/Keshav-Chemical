@@ -440,7 +440,7 @@ export default function DivisionDetail() {
                                                 src={product.image}
                                                 alt={product.name}
                                                 loading="lazy"
-                                                className="w-full h-full object-cover group-hover:scale-110 duration-500"
+                                                className="w-full h-full object-contain p-3 sm:p-4 group-hover:scale-110 duration-500"
                                             />
                                         </div>
                                     )}

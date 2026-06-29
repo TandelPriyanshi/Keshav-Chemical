@@ -1,4 +1,10 @@
 // Product Categories and Items for Keshav Chemical
+import cement1 from "../assets/image/1.jpeg";
+import cement2 from "../assets/image/2.jpeg";
+import cement3 from "../assets/image/3.jpeg";
+import cement4 from "../assets/image/4.jpeg";
+import cement5 from "../assets/image/5.jpeg";
+import cement6 from "../assets/image/6.jpeg";
 
 export interface ProductSpecifications {
     size?: string;
@@ -60,7 +66,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-1",
                 slug: "keshav-kc-1",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-1.png",
+                image: cement1,
                 description:
                     "KESHAV KC-1 is a grey cement based polymer modified tile adhesive. It gives excellent bond on cementitious surfaces like concrete and plaster and forms a waterproof barrier between two surfaces.",
                 specifications: {
@@ -81,7 +87,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-2",
                 slug: "keshav-kc-2",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-2.png",
+                image: cement2,
                 description:
                     "KESHAV KC-2 is a grey cement based polymer modified tile adhesive designed for floor and wall tile fixing with improved bond strength and workability on cementitious substrates.",
                 specifications: {
@@ -99,7 +105,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-3",
                 slug: "keshav-kc-3",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-3.png",
+                image: cement3,
                 description:
                     "KESHAV KC-3 is a high-performance polymer modified tile adhesive for demanding tile installations where strong adhesion and consistent application are required.",
                 specifications: {
@@ -117,7 +123,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-4 WHITE",
                 slug: "keshav-kc-4-white",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-4-white.png",
+                image: cement4,
                 description:
                     "KESHAV KC-4 WHITE is a white cement based polymer modified tile adhesive for fixing marble, granite, and light-coloured tiles where a clean aesthetic finish is required.",
                 specifications: {
@@ -135,7 +141,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-5 / NO LIMIT GRAY",
                 slug: "keshav-kc-5-no-limit-gray",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-5-no-limit-gray.png",
+                image: cement5,
                 description:
                     "KESHAV KC-5 / NO LIMIT GRAY is an advanced grey polymer modified tile adhesive for heavy-duty and large-format tile fixing applications.",
                 specifications: {
@@ -153,7 +159,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV KC-6 WHITE / NO LIMIT WHITE",
                 slug: "keshav-kc-6-white-no-limit-white",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-kc-6-white-no-limit-white.png",
+                image: cement6,
                 description:
                     "KESHAV KC-6 WHITE / NO LIMIT WHITE is a white polymer modified tile adhesive for premium marble, granite, and designer tile installations.",
                 specifications: {
@@ -171,7 +177,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV PU ADHESIVE",
                 slug: "keshav-pu-adhesive",
                 category: "tile-adhesives",
-                image: "/images/products/keshav-pu-adhesive.png",
+                image: cement1,
                 description:
                     "KESHAV PU ADHESIVE is a polyurethane-based tile adhesive for elastic bonding where movement accommodation and adhesion on varied substrates are needed.",
                 specifications: {

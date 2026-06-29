@@ -5240,3 +5240,28 @@ img {
     }
 }
 
+/* Fix product image cropping and backgrounds on detail pages */
+.pavanity-products-card--compact .pavanity-products-card__media {
+    background: #eaecef !important; /* Matches the JPEG packshot background exactly */
+}
+
+.pavanity-products-card--compact .pavanity-products-card__media::after {
+    display: none !important; /* Remove the inset white border overlay */
+}
+
+.pavanity-products-card--compact .pavanity-products-card__media img {
+    object-fit: contain !important;
+}
+
+.pavanity-products-overview__media {
+    background: #eaecef !important; /* Matches the JPEG packshot background exactly */
+}
+
+.pavanity-products-overview__media img {
+    object-fit: contain !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+

@@ -146,7 +146,7 @@ export default function SingleProductDetail() {
                         <div className="pavanity-split-panel__media pavanity-products-overview__media lg:pr-10 2xl:pr-0 relative">
                             <div>
                                 <img
-                                    className="object-cover w-full h-full"
+                                    className="object-contain w-full h-full p-4 md:p-8"
                                     src={product.image || placeholderImage}
                                     alt={product.name}
                                     loading="lazy"
@@ -306,7 +306,7 @@ export default function SingleProductDetail() {
                                                         src={relatedProduct.image}
                                                         alt={relatedProduct.name}
                                                         loading="lazy"
-                                                        className="w-full h-full object-cover group-hover:scale-110 duration-500"
+                                                        className="w-full h-full object-contain p-3 sm:p-4 group-hover:scale-110 duration-500"
                                                     />
                                                 </div>
                                             )}
