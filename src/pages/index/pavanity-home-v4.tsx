@@ -425,14 +425,14 @@ export default function PavanityHomeV4() {
                 <div className="container-fluid">
                     <div className="max-w-[1720px] mx-auto pavanity-home-section-shell">
                         <div className="pavanity-cta-panel pavanity-home-cta-panel text-center" data-aos="fade-up">
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-white">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
                                 {businessEnquiries.heading}
                             </h2>
 
                             <div className="mt-8 md:mt-10">
                                 <a
                                     href={`mailto:${businessEnquiries.email}`}
-                                    className="text-2xl font-semibold text-white md:text-4xl"
+                                    className="text-2xl font-semibold md:text-4xl"
                                 >
                                     {businessEnquiries.email}
                                 </a>

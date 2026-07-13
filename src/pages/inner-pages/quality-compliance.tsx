@@ -417,7 +417,7 @@ export default function QualityCompliance() {
                             </div>
                         </div>
 
-                        <div className="pavanity-stuffing-table" data-aos="fade-up" data-aos-delay="300">
+                        <div className="pavanity-table-card pavanity-stuffing-table" data-aos="fade-up" data-aos-delay="300">
                             <div className="pavanity-stuffing-table__header">
                                 <div className="pavanity-stuffing-table__heading">
                                     <span className="pavanity-stuffing-table__index" aria-hidden="true">01</span>
@@ -465,21 +465,23 @@ export default function QualityCompliance() {
         {/* ============================================ */}
         {/* CONTACT CTA */}
         {/* ============================================ */}
-        <div className="s-pb-100">
+        <div className="s-pb-100 dark:bg-dark-secondary">
             <div className="container-fluid">
-                <div className="max-w-3xl mx-auto text-center p-8 md:p-12 bg-primary rounded-[10px]" data-aos="fade-up" data-aos-delay="100">
-                    <h3 className="text-white text-2xl md:text-3xl font-semibold">
-                        Need Quality Documentation?
-                    </h3>
-                    <p className="text-white text-base md:text-lg mt-4">
-                        Request product specifications, certificates, or compliance documentation for your destination market.
-                    </p>
-                    <Link
-                        to="/contact"
-                        className="inline-block mt-6 bg-white text-primary px-8 py-4 text-base md:text-lg font-semibold rounded-[5px] hover:bg-opacity-90 duration-300"
-                    >
-                        Contact Quality Team
-                    </Link>
+                <div className="max-w-3xl mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div className="pavanity-cta-panel pavanity-products-cta-panel">
+                        <h3 className="text-xl md:text-3xl font-semibold">
+                            Need Quality Documentation?
+                        </h3>
+                        <p className="mt-4 text-base md:text-lg">
+                            Request product specifications, certificates, or compliance documentation for your destination market.
+                        </p>
+                        <Link
+                            to="/contact"
+                            className="pavanity-products-cta-panel__button inline-block mt-6 bg-primary text-white px-8 py-4 text-base md:text-lg font-medium rounded-[5px] hover:bg-opacity-90 duration-300"
+                        >
+                            Contact Quality Team
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

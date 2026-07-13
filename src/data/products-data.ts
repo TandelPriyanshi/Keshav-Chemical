@@ -1,10 +1,10 @@
 // Product Categories and Items for Keshav Chemical
-import cement1 from "../assets/image/1.jpeg";
-import cement2 from "../assets/image/2.jpeg";
-import cement3 from "../assets/image/3.jpeg";
-import cement4 from "../assets/image/4.jpeg";
-import cement5 from "../assets/image/5.jpeg";
-import cement6 from "../assets/image/6.jpeg";
+import cement1 from "../assets/image/1.png";
+import cement2 from "../assets/image/2.png";
+import cement3 from "../assets/image/3.png";
+import cement4 from "../assets/image/4.png";
+import cement5 from "../assets/image/5.png";
+import cement6 from "../assets/image/6.png";
 
 export interface ProductSpecifications {
     size?: string;
