@@ -147,7 +147,7 @@ export default function PrivateLabelCustomSourcing() {
         {/* ============================================ */}
         {/* SERVICES GRID SECTION */}
         {/* ============================================ */}
-        <div className="s-pb-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+        <div className="s-pb-100 dark:bg-dark-secondary">
             <div className="container-fluid">
                 <div className="pavanity-private-capabilities-shell pavanity-logo-watermark-surface max-w-[1720px] mx-auto">
 

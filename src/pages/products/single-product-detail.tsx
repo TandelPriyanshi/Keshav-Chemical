@@ -135,7 +135,7 @@ export default function SingleProductDetail() {
             {/* ============================================ */}
             {/* PRODUCT OVERVIEW SECTION */}
             {/* ============================================ */}
-            <div className="pavanity-page-section pavanity-products-overview">
+            <div className="pavanity-page-section pavanity-products-overview dark:bg-dark-secondary">
                 <div
                     className="container-fluid"
                     data-aos="fade-up"
@@ -183,7 +183,7 @@ export default function SingleProductDetail() {
             </div>
 
             {specificationRows.length > 0 && (
-                <div className="pavanity-products-section pavanity-products-section--specs s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+                <div className="pavanity-products-section pavanity-products-section--specs s-py-100 dark:bg-dark-secondary">
                     <div className="container-fluid">
                         <div
                             className="max-w-[1720px] mx-auto pavanity-products-spec-shell pavanity-logo-watermark-surface"
@@ -266,7 +266,7 @@ export default function SingleProductDetail() {
             {/* RELATED PRODUCTS FROM SAME CATEGORY */}
             {/* ============================================ */}
             {category.products.length > 1 && (
-                <div className="pavanity-products-section pavanity-products-section--related s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+                <div className="pavanity-products-section pavanity-products-section--related s-py-100 dark:bg-dark-secondary">
                     <div className="container-fluid">
                         <div
                             className="pavanity-section-intro pavanity-products-section-intro mb-8 md:mb-12"
@@ -350,14 +350,14 @@ export default function SingleProductDetail() {
             <div className="pavanity-products-section s-pb-100 pt-12">
                 <div className="container-fluid">
                     <div
-                        className="pavanity-cta-panel pavanity-products-cta-panel max-w-3xl mx-auto text-center p-8 md:p-12 bg-primary rounded-[10px]"
+                        className="pavanity-cta-panel pavanity-products-cta-panel max-w-3xl mx-auto text-center p-8 md:p-12 rounded-[10px]"
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        <h3 className="text-white text-2xl md:text-3xl font-semibold">
+                        <h3 className="text-2xl md:text-3xl font-semibold">
                             Interested in {product.name}?
                         </h3>
-                        <p className="text-white text-base md:text-lg mt-4">
+                        <p className="text-base md:text-lg mt-4">
                             Contact our export team to discuss specifications,
                             pricing, MOQ requirements, and delivery timelines for
                             international supply.

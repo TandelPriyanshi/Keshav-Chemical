@@ -1077,9 +1077,7 @@ img {
     padding: clamp(1.5rem, 3vw, 2.2rem);
     border: 1px solid rgba(23, 23, 23, 0.06);
     border-radius: 1.7rem;
-    background:
-        radial-gradient(circle at top right, rgba(0, 113, 185, 0.2), transparent 28%),
-        linear-gradient(140deg, #1d1d1d 0%, #2f2f2c 100%);
+    /* background: radial-gradient(circle at top right, rgba(0, 113, 185, 0.2), transparent 28%),linear-gradient(140deg, #1d1d1d 0%, #2f2f2c 100%); */
     box-shadow: 0 28px 60px rgba(23, 23, 23, 0.14);
 }
 
@@ -1088,7 +1086,7 @@ img {
 }
 
 .pavanity-products-catalog-intro__eyebrow {
-    color: rgba(214, 243, 192, 0.86);
+    /* color: rgba(214, 243, 192, 0.86); */
     font-size: 0.76rem;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -1097,14 +1095,14 @@ img {
 
 .pavanity-products-catalog-intro h3 {
     margin-top: 1rem;
-    color: var(--pavanity-white);
+    /* color: var(--pavanity-white); */
     letter-spacing: -0.04em;
 }
 
 .pavanity-products-catalog-intro__copy {
     max-width: 40rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.82);
+    /* color: rgba(255, 255, 255, 0.82); */
     line-height: 1.8;
 }
 
@@ -1646,9 +1644,7 @@ img {
     padding: clamp(1.5rem, 3vw, 2.2rem);
     border: 1px solid rgba(23, 23, 23, 0.06);
     border-radius: 1.7rem;
-    background:
-        radial-gradient(circle at top right, rgba(0, 113, 185, 0.2), transparent 28%),
-        linear-gradient(140deg, #1d1d1d 0%, #2f2f2c 100%);
+    /* background: radial-gradient(circle at top right, rgba(0, 113, 185, 0.2), transparent 28%), linear-gradient(140deg, #1d1d1d 0%, #2f2f2c 100%); */
     box-shadow: 0 28px 60px rgba(23, 23, 23, 0.14);
 }
 
@@ -1657,7 +1653,7 @@ img {
 }
 
 .pavanity-products-spec-intro-panel__eyebrow {
-    color: rgba(214, 243, 192, 0.86);
+    /* color: rgba(214, 243, 192, 0.86); */
     font-size: 0.76rem;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -1666,14 +1662,14 @@ img {
 
 .pavanity-products-spec-intro-panel h3 {
     margin-top: 1rem;
-    color: var(--pavanity-white);
+    /* color: var(--pavanity-white); */
     letter-spacing: -0.04em;
 }
 
 .pavanity-products-spec-intro-panel__copy {
     max-width: 40rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.82);
+    /* color: rgba(255, 255, 255, 0.82); */
     line-height: 1.8;
 }
 

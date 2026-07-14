@@ -203,7 +203,7 @@ export default function QualityCompliance() {
         {/* ============================================ */}
         {/* QUALITY CONTROL PROCESSES - NEW STRUCTURE */}
         {/* ============================================ */}
-        <div className="s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+        <div className="s-py-100 dark:bg-dark-secondary">
             <div className="container-fluid">
                 <div className="pavanity-section-intro mb-8 md:mb-12" data-aos="fade-up" data-aos-delay="100">
                     <div className="pavanity-icon-panel mx-auto">
@@ -372,7 +372,7 @@ export default function QualityCompliance() {
         {/* ============================================ */}
         {/* STUFFING CAPACITY - CONTAINER LOADING */}
         {/* ============================================ */}
-        <div className="s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+        <div className="s-py-100 dark:bg-dark-secondary">
             <div className="container-fluid">
                 <div
                     className="max-w-[1720px] mx-auto"

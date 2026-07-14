@@ -379,7 +379,7 @@ export default function DivisionDetail() {
             {/* ============================================ */}
             {/* AVAILABLE PRODUCTS LIST */}
             {/* ============================================ */}
-            <div className="pavanity-products-section pavanity-products-section--catalog s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+            <div className="pavanity-products-section pavanity-products-section--catalog s-py-100 dark:bg-dark-secondary">
                 <div className="container-fluid">
                     <div
                         className="max-w-[1720px] mx-auto pavanity-products-catalog-shell pavanity-logo-watermark-surface"
@@ -491,7 +491,7 @@ export default function DivisionDetail() {
             {/* ============================================ */}
             {/* APPLICATIONS SECTION */}
             {/* ============================================ */}
-            <div className="pavanity-products-section pavanity-products-section--catalog s-py-100 bg-[#F8F8F9] dark:bg-dark-secondary">
+            <div className="pavanity-products-section pavanity-products-section--catalog s-py-100 dark:bg-dark-secondary">
                 <div className="container-fluid">
                     <div
                         className="pavanity-surface-card-soft pavanity-products-info-panel max-w-[1720px] mx-auto p-8 md:p-12"
@@ -597,14 +597,14 @@ export default function DivisionDetail() {
             <div className="pavanity-products-section s-pb-100">
                 <div className="container-fluid">
                     <div
-                        className="pavanity-cta-panel pavanity-products-cta-panel max-w-3xl mx-auto text-center p-8 md:p-12 bg-primary rounded-[10px]"
+                        className="pavanity-cta-panel pavanity-products-cta-panel max-w-3xl mx-auto text-center p-8 md:p-12 rounded-[10px]"
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        <h3 className="text-white text-2xl md:text-3xl font-semibold">
+                        <h3 className="text-2xl md:text-3xl font-semibold">
                             Interested in {category.name}?
                         </h3>
-                        <p className="text-white text-base md:text-lg mt-4">
+                        <p className="text-base md:text-lg mt-4">
                             Contact our export team to discuss specifications,
                             pricing, MOQ requirements, and delivery timelines
                             for international supply.
