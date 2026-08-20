@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import MainImage from "../../assets/image/Keshav_chemical_main.jpeg"
+
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 type HeroSlide = {
@@ -14,7 +16,7 @@ type HeroSlide = {
 const HERO_SLIDES: HeroSlide[] = [
     {
         id: "adhesives",
-        image: "/images/home-background.jpeg",
+        image: MainImage,
         eyebrow: "Professional-grade building solutions",
         titlePrefix: "High-Performance",
         titleHighlight: "Tile",
@@ -22,7 +24,7 @@ const HERO_SLIDES: HeroSlide[] = [
     },
     {
         id: "chemicals",
-        image: "/images/v1-home-background.jpeg",
+        image: MainImage,
         eyebrow: "Quality construction chemicals",
         titlePrefix: "Reliable",
         titleHighlight: "Building",
@@ -30,7 +32,7 @@ const HERO_SLIDES: HeroSlide[] = [
     },
     {
         id: "supply",
-        image: "/images/home-background.jpeg",
+        image: MainImage,
         eyebrow: "Dealer and project partner",
         titlePrefix: "Consistent",
         titleHighlight: "Bulk",

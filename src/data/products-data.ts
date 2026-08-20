@@ -193,38 +193,78 @@ export const productsData: ProductCategory[] = [
     },
     {
         id: 2,
-        name: "Grouts",
-        slug: "grouts",
+        name: "Tile Joint Fillers",
+        slug: "tile-joint-fillers",
         icon: "grout",
-        image: "/images/products/grouts.png",
+        image: "/images/products/tile-joint-fillers.png",
         tagline: "Joint Filling & Finishing",
         description:
-            "Keshav Chemical grouts cover cementitious polymer-modified grouts, epoxy systems, and admixtures for durable, finished tile joints in residential and commercial projects.",
+            "Keshav Chemical Tile Joint Fillers for durable, finished tile joints in residential and commercial projects.",
         products: [
             {
                 id: 201,
-                name: "KESHAV POLYMER GROUT",
-                slug: "keshav-polymer-grout",
-                category: "grouts",
-                image: "/images/products/keshav-polymer-grout.png",
+                name: "TILE JOINT FILLERS",
+                slug: "tile-joint-fillers",
+                category: "tile-joint-fillers",
+                image: "/images/products/tile-joint-fillers.png",
                 description:
-                    "KESHAV POLYMER GROUT is a cementitious polymer-modified grout for filling tile joints with improved strength, water resistance, and finish.",
+                    "TILE JOINT FILLERS from Keshav Chemical for filling and finishing tile joints on wall and floor installations.",
                 specifications: {
-                    packing: "Available in bag packs as per grade",
+                    packing: "As per pack size",
                     shelfLife: DEFAULT_SHELF_LIFE,
-                    application: "Grouting of wall and floor tile joints",
-                    advantages:
-                        "Polymer modified, smooth finish, suitable for ceramic and vitrified tile joints",
+                    application: "Filling of wall and floor tile joints",
+                    advantages: "Smooth finish, suitable for ceramic and vitrified tile joints",
                 },
             },
+        ],
+    },
+    {
+        id: 3,
+        name: "Tile and Stone Cleaner",
+        slug: "tile-and-stone-cleaner",
+        icon: "care",
+        image: "/images/products/tile-and-stone-cleaner.png",
+        tagline: "Post-Installation Care",
+        description:
+            "Tile and Stone Cleaner from Keshav Chemical helps maintain and clean tiled surfaces after installation, supporting a professional project finish.",
+        products: [
             {
-                id: 202,
-                name: "KESHAV EPOXY GROUT",
-                slug: "keshav-epoxy-grout",
-                category: "grouts",
-                image: "/images/products/keshav-epoxy-grout.png",
+                id: 301,
+                name: "TILE AND STONE CLEANER",
+                slug: "tile-and-stone-cleaner",
+                category: "tile-and-stone-cleaner",
+                image: "/images/products/tile-and-stone-cleaner.png",
                 description:
-                    "KESHAV EPOXY GROUT is a two-component epoxy grout system for tile joints requiring high stain resistance, durability, and a uniform finish.",
+                    "TILE AND STONE CLEANER is formulated to remove cement residue, grout haze, and general dirt from tile and stone surfaces after installation.",
+                specifications: {
+                    packing: "Liquid pack",
+                    shelfLife: DEFAULT_SHELF_LIFE,
+                    application:
+                        "Post-installation cleaning of ceramic, vitrified, and natural stone tiles",
+                    advantages:
+                        "Effective on cement and grout residue, supports clean finished tile surfaces",
+                },
+            },
+        ],
+    },
+    {
+        id: 4,
+        name: "Epoxy",
+        slug: "epoxy",
+        icon: "epoxy",
+        image: "/images/products/epoxy.png",
+        tagline: "Premium Epoxy Grouting Systems",
+        description:
+            "Keshav Chemical Epoxy for premium, stain-resistant, and long-lasting tile joint applications.",
+        products: [
+            {
+                id: 401,
+                name: "EPOXY",
+                slug: "epoxy",
+                category: "epoxy",
+                image: "/images/products/epoxy.png",
+                description:
+                    "EPOXY is a two-component system from Keshav Chemical for tile joints requiring high stain resistance, durability, and a uniform finish.",
                 specifications: {
                     packing: "Two-component kit",
                     shelfLife: DEFAULT_SHELF_LIFE,
@@ -234,60 +274,204 @@ export const productsData: ProductCategory[] = [
                         "Epoxy based, stain resistant, durable joint finish, suitable for wet and heavy-use areas",
                 },
             },
+        ],
+    },
+    {
+        id: 5,
+        name: "Application Tools",
+        slug: "application-tools",
+        icon: "tools",
+        image: "/images/products/application-tools.png",
+        tagline: "Tile Fixing & Finishing Accessories",
+        description:
+            "Keshav Chemical application tools support accurate, professional tile installation, including spacers, leveling systems, and finishing accessories.",
+        products: [
             {
-                id: 203,
-                name: "PREMIUM EPOXY GROUTS",
-                slug: "premium-epoxy-grouts",
-                category: "grouts",
-                image: "/images/products/premium-epoxy-grouts.png",
+                id: 501,
+                name: "TILE SPACERS",
+                slug: "tile-spacers",
+                category: "application-tools",
+                image: "/images/products/tile-spacers.png",
                 description:
-                    "PREMIUM EPOXY GROUTS are high-grade epoxy grout formulations from Keshav Chemical for premium tile installations and long-lasting joint performance.",
+                    "Tile spacers used to maintain consistent joint gaps between tiles during installation, available in multiple sizes.",
                 specifications: {
-                    packing: "Two-component kit",
-                    shelfLife: DEFAULT_SHELF_LIFE,
-                    application:
-                        "Premium residential and commercial tile joints, designer flooring",
+                    size: "2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm, 12mm",
+                    packing: "As per pack size",
+                    application: "Maintaining uniform tile joint spacing during installation",
                     advantages:
-                        "Premium epoxy system, excellent durability, uniform colour and finish",
+                        "Available in multiple sizes, ensures consistent and professional joint lines",
                 },
             },
             {
-                id: 204,
-                name: "SPARKLE EPOXY GROUTS",
-                slug: "sparkle-epoxy-grouts",
-                category: "grouts",
-                image: "/images/products/sparkle-epoxy-grouts.png",
+                id: 502,
+                name: "TILE LEVELING CLIPS",
+                slug: "tile-leveling-clips",
+                category: "application-tools",
+                image: "/images/products/tile-leveling-clips.png",
                 description:
-                    "SPARKLE EPOXY GROUTS are decorative epoxy grout options with sparkle finish for designer tile and stone installations.",
+                    "Tile leveling clips used with wedges to keep adjoining tiles flush and level during installation, preventing lippage.",
                 specifications: {
-                    packing: "Two-component kit",
-                    shelfLife: DEFAULT_SHELF_LIFE,
-                    application:
-                        "Decorative tile joints, feature walls, designer flooring",
+                    size: "3mm, 4mm",
+                    packing: "As per pack size",
+                    application: "Tile leveling system for floor and wall tile installations",
                     advantages:
-                        "Sparkle finish, epoxy durability, enhances aesthetic tile installations",
+                        "Prevents tile lippage, ensures a flat, even tiled surface",
                 },
             },
             {
-                id: 205,
-                name: "GROUT ADMIXTURE",
-                slug: "grout-admixture",
-                category: "grouts",
-                image: "/images/products/grout-admixture.png",
+                id: 503,
+                name: "LEVELING WEDGE (YELLOW)",
+                slug: "leveling-wedge-yellow",
+                category: "application-tools",
+                image: "/images/products/leveling-wedge-yellow.png",
                 description:
-                    "GROUT ADMIXTURE is a liquid admixture used with cementitious grout to improve workability, bonding, and performance of tile joint filling.",
+                    "Yellow leveling wedges used with tile leveling clips to apply even pressure and keep tiles level during setting.",
                 specifications: {
-                    packing: "Liquid pack",
-                    shelfLife: DEFAULT_SHELF_LIFE,
-                    application: "Added to cementitious grout mixes as per recommended dosage",
+                    color: "Yellow",
+                    packing: "As per pack size",
+                    application: "Used with tile leveling clips in the tile leveling system",
                     advantages:
-                        "Improves grout workability and performance, easy to use on site",
+                        "Reusable, applies consistent pressure for a level tile surface",
+                },
+            },
+            {
+                id: 504,
+                name: "JACK (RED)",
+                slug: "jack-red",
+                category: "application-tools",
+                image: "/images/products/jack-red.png",
+                description:
+                    "Red jack tool used to tighten leveling wedges against tile leveling clips for precise tile alignment.",
+                specifications: {
+                    color: "Red",
+                    packing: "As per pack size",
+                    application: "Tightening leveling wedges in the tile leveling system",
+                    advantages:
+                        "Durable, provides firm grip for consistent wedge tightening",
+                },
+            },
+            {
+                id: 505,
+                name: "LEVELING PLIERS",
+                slug: "leveling-pliers",
+                category: "application-tools",
+                image: "/images/products/leveling-pliers.png",
+                description:
+                    "Leveling pliers used to install and tighten the tile leveling clip and wedge system efficiently on site.",
+                specifications: {
+                    packing: "As per pack size",
+                    application: "Installation and tightening of tile leveling clips and wedges",
+                    advantages:
+                        "Speeds up the tile leveling process, ergonomic and easy to use",
+                },
+            },
+            {
+                id: 506,
+                name: "TOWEL (8MM)",
+                slug: "towel-8mm",
+                category: "application-tools",
+                image: "/images/products/towel-8mm.png",
+                description:
+                    "8mm notch towel/trowel used for spreading tile adhesive evenly during tile installation.",
+                specifications: {
+                    size: "8mm",
+                    packing: "As per pack size",
+                    application: "Spreading tile adhesive on floors and walls before tile fixing",
+                    advantages:
+                        "Ensures even adhesive spread and consistent coverage",
+                },
+            },
+            {
+                id: 507,
+                name: "ALUMINIUM DOUBLE SUCTION CUP",
+                slug: "aluminium-double-suction-cup",
+                category: "application-tools",
+                image: "/images/products/aluminium-double-suction-cup.png",
+                description:
+                    "Aluminium double suction cup used for lifting and positioning large-format tiles and slabs safely during installation.",
+                specifications: {
+                    packing: "As per pack size",
+                    application: "Lifting and handling large-format tiles, slabs, and stone panels",
+                    advantages:
+                        "Strong grip, aluminium build, supports safe handling of heavy tiles",
                 },
             },
         ],
     },
     {
-        id: 3,
+        id: 6,
+        name: "Glitter",
+        slug: "glitter",
+        icon: "glitter",
+        image: "/images/products/glitter.png",
+        tagline: "Decorative Glitter Finishes",
+        description:
+            "Keshav Chemical Glitter range offers decorative finishes for epoxy and grout applications in Copper, Silver, Gold, and Rainbow.",
+        products: [
+            {
+                id: 601,
+                name: "GLITTER - COPPER",
+                slug: "glitter-copper",
+                category: "glitter",
+                image: "/images/products/glitter-copper.png",
+                description:
+                    "GLITTER - COPPER is a decorative copper-toned glitter finish for use with epoxy and grout applications.",
+                specifications: {
+                    color: "Copper",
+                    packing: "As per pack size",
+                    application: "Decorative finish for epoxy and grout tile joint applications",
+                    advantages: "Copper glitter finish, enhances aesthetic tile installations",
+                },
+            },
+            {
+                id: 602,
+                name: "GLITTER - SILVER",
+                slug: "glitter-silver",
+                category: "glitter",
+                image: "/images/products/glitter-silver.png",
+                description:
+                    "GLITTER - SILVER is a decorative silver-toned glitter finish for use with epoxy and grout applications.",
+                specifications: {
+                    color: "Silver",
+                    packing: "As per pack size",
+                    application: "Decorative finish for epoxy and grout tile joint applications",
+                    advantages: "Silver glitter finish, enhances aesthetic tile installations",
+                },
+            },
+            {
+                id: 603,
+                name: "GLITTER - GOLD",
+                slug: "glitter-gold",
+                category: "glitter",
+                image: "/images/products/glitter-gold.png",
+                description:
+                    "GLITTER - GOLD is a decorative gold-toned glitter finish for use with epoxy and grout applications.",
+                specifications: {
+                    color: "Gold",
+                    packing: "As per pack size",
+                    application: "Decorative finish for epoxy and grout tile joint applications",
+                    advantages: "Gold glitter finish, enhances aesthetic tile installations",
+                },
+            },
+            {
+                id: 604,
+                name: "GLITTER - RAINBOW",
+                slug: "glitter-rainbow",
+                category: "glitter",
+                image: "/images/products/glitter-rainbow.png",
+                description:
+                    "GLITTER - RAINBOW is a decorative multi-colour glitter finish for use with epoxy and grout applications.",
+                specifications: {
+                    color: "Rainbow",
+                    packing: "As per pack size",
+                    application: "Decorative finish for epoxy and grout tile joint applications",
+                    advantages: "Rainbow glitter finish, enhances aesthetic tile installations",
+                },
+            },
+        ],
+    },
+    {
+        id: 7,
         name: "Construction Chemicals",
         slug: "construction-chemicals",
         icon: "chemical",
@@ -297,7 +481,7 @@ export const productsData: ProductCategory[] = [
             "Construction chemical solutions from Keshav Chemical support waterproofing, bonding, and repair applications in building and infrastructure projects.",
         products: [
             {
-                id: 301,
+                id: 701,
                 name: "KESHAV SBR LATEX",
                 slug: "keshav-sbr-latex",
                 category: "construction-chemicals",
@@ -313,52 +497,11 @@ export const productsData: ProductCategory[] = [
                         "Improves adhesion and flexibility of cement mixes, suitable for waterproofing and bonding applications",
                 },
             },
-        ],
-    },
-    {
-        id: 4,
-        name: "Tile Care Products",
-        slug: "tile-care-products",
-        icon: "care",
-        image: "/images/products/tile-care-products.png",
-        tagline: "Post-Installation Care",
-        description:
-            "Tile care products from Keshav Chemical help maintain and clean tiled surfaces after installation, supporting a professional project finish.",
-        products: [
             {
-                id: 401,
-                name: "KESHAV TILE CLEANER",
-                slug: "keshav-tile-cleaner",
-                category: "tile-care-products",
-                image: "/images/products/keshav-tile-cleaner.png",
-                description:
-                    "KESHAV TILE CLEANER is formulated to remove cement residue, grout haze, and general dirt from tile and stone surfaces after installation.",
-                specifications: {
-                    packing: "Liquid pack",
-                    shelfLife: DEFAULT_SHELF_LIFE,
-                    application:
-                        "Post-installation cleaning of ceramic, vitrified, and natural stone tiles",
-                    advantages:
-                        "Effective on cement and grout residue, supports clean finished tile surfaces",
-                },
-            },
-        ],
-    },
-    {
-        id: 5,
-        name: "Block Jointing Mortar",
-        slug: "block-jointing-mortar",
-        icon: "mortar",
-        image: "/images/products/block-jointing-mortar.png",
-        tagline: "Masonry & Block Work",
-        description:
-            "Keshav Chemical block jointing mortar is a pre-mixed solution for laying AAC blocks, concrete blocks, and related masonry work with consistent strength and workability.",
-        products: [
-            {
-                id: 501,
+                id: 702,
                 name: "KESHAV BLOCK FIX",
                 slug: "keshav-block-fix",
-                category: "block-jointing-mortar",
+                category: "construction-chemicals",
                 image: "/images/products/keshav-block-fix.png",
                 description:
                     "KESHAV BLOCK FIX is a ready-to-use block jointing mortar for AAC and concrete block masonry, offering uniform mixing and easy application on site.",
@@ -369,6 +512,23 @@ export const productsData: ProductCategory[] = [
                         "Jointing of AAC blocks, concrete blocks, and lightweight block masonry",
                     advantages:
                         "Pre-mixed formulation, good workability, designed for block masonry applications",
+                },
+            },
+            {
+                id: 703,
+                name: "KESHAV READY MIX",
+                slug: "keshav-ready-mix",
+                category: "construction-chemicals",
+                image: "/images/products/keshav-ready-mix.png",
+                description:
+                    "KESHAV READY MIX is a pre-mixed construction chemical formulation for plastering and repair applications requiring consistent, ready-to-use material on site.",
+                specifications: {
+                    packing: "Bag pack",
+                    shelfLife: DEFAULT_SHELF_LIFE,
+                    application:
+                        "Plastering, patch repair, and general construction applications requiring a ready mix",
+                    advantages:
+                        "Pre-mixed and ready to use, consistent quality, saves on-site mixing time",
                 },
             },
         ],
