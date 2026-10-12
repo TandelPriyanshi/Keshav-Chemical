@@ -5,6 +5,11 @@ import cement3 from "../assets/image/3.png";
 import cement4 from "../assets/image/4.png";
 import cement5 from "../assets/image/5.png";
 import cement6 from "../assets/image/6.png";
+import cleaner1 from "../assets/image/cleaner.jpeg";
+import spacer from "../assets/image/tile-spacer.jpeg";
+import fittingWedge from "../assets/image/tile-fitting-wedge.jpeg";
+import fitting from "../assets/image/tile-fitting.jpeg";
+import equalizer from "../assets/image/tile-equalizer.jpeg";
 
 export interface ProductSpecifications {
     size?: string;
@@ -223,7 +228,7 @@ export const productsData: ProductCategory[] = [
         name: "Tile and Stone Cleaner",
         slug: "tile-and-stone-cleaner",
         icon: "care",
-        image: "/images/products/tile-and-stone-cleaner.png",
+        image: cleaner1,
         tagline: "Post-Installation Care",
         description:
             "Tile and Stone Cleaner from Keshav Chemical helps maintain and clean tiled surfaces after installation, supporting a professional project finish.",
@@ -233,7 +238,7 @@ export const productsData: ProductCategory[] = [
                 name: "TILE AND STONE CLEANER",
                 slug: "tile-and-stone-cleaner",
                 category: "tile-and-stone-cleaner",
-                image: "/images/products/tile-and-stone-cleaner.png",
+                image: cleaner1,
                 description:
                     "TILE AND STONE CLEANER is formulated to remove cement residue, grout haze, and general dirt from tile and stone surfaces after installation.",
                 specifications: {
@@ -291,7 +296,7 @@ export const productsData: ProductCategory[] = [
                 name: "TILE SPACERS",
                 slug: "tile-spacers",
                 category: "application-tools",
-                image: "/images/products/tile-spacers.png",
+                image: spacer,
                 description:
                     "Tile spacers used to maintain consistent joint gaps between tiles during installation, available in multiple sizes.",
                 specifications: {
@@ -307,7 +312,7 @@ export const productsData: ProductCategory[] = [
                 name: "TILE LEVELING CLIPS",
                 slug: "tile-leveling-clips",
                 category: "application-tools",
-                image: "/images/products/tile-leveling-clips.png",
+                image: fitting,
                 description:
                     "Tile leveling clips used with wedges to keep adjoining tiles flush and level during installation, preventing lippage.",
                 specifications: {
@@ -323,7 +328,7 @@ export const productsData: ProductCategory[] = [
                 name: "LEVELING WEDGE (YELLOW)",
                 slug: "leveling-wedge-yellow",
                 category: "application-tools",
-                image: "/images/products/leveling-wedge-yellow.png",
+                image: fittingWedge,
                 description:
                     "Yellow leveling wedges used with tile leveling clips to apply even pressure and keep tiles level during setting.",
                 specifications: {
@@ -355,7 +360,7 @@ export const productsData: ProductCategory[] = [
                 name: "LEVELING PLIERS",
                 slug: "leveling-pliers",
                 category: "application-tools",
-                image: "/images/products/leveling-pliers.png",
+                image: equalizer,
                 description:
                     "Leveling pliers used to install and tighten the tile leveling clip and wedge system efficiently on site.",
                 specifications: {
