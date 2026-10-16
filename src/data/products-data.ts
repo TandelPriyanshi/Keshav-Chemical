@@ -10,6 +10,11 @@ import spacer from "../assets/image/tile-spacer.jpeg";
 import fittingWedge from "../assets/image/tile-fitting-wedge.jpeg";
 import fitting from "../assets/image/tile-fitting.jpeg";
 import equalizer from "../assets/image/tile-equalizer.jpeg";
+import aluminiumDoubleSuctionCup from "../assets/image/aluminium-double-suction-cup.jpeg";
+import readyMixfront from "../assets/image/ready-mix.jpeg";
+// import readyMixback from "../assets/image/ready-mix-2.jpeg";
+import tileJointFiller from "../assets/image/tiles-joint-filler.jpeg";
+import towel8mm from "../assets/image/towel-8mm.jpeg"
 
 export interface ProductSpecifications {
     size?: string;
@@ -201,7 +206,7 @@ export const productsData: ProductCategory[] = [
         name: "Tile Joint Fillers",
         slug: "tile-joint-fillers",
         icon: "grout",
-        image: "/images/products/tile-joint-fillers.png",
+        image: tileJointFiller,
         tagline: "Joint Filling & Finishing",
         description:
             "Keshav Chemical Tile Joint Fillers for durable, finished tile joints in residential and commercial projects.",
@@ -211,7 +216,7 @@ export const productsData: ProductCategory[] = [
                 name: "TILE JOINT FILLERS",
                 slug: "tile-joint-fillers",
                 category: "tile-joint-fillers",
-                image: "/images/products/tile-joint-fillers.png",
+                image: tileJointFiller,
                 description:
                     "TILE JOINT FILLERS from Keshav Chemical for filling and finishing tile joints on wall and floor installations.",
                 specifications: {
@@ -375,7 +380,7 @@ export const productsData: ProductCategory[] = [
                 name: "TOWEL (8MM)",
                 slug: "towel-8mm",
                 category: "application-tools",
-                image: "/images/products/towel-8mm.png",
+                image: towel8mm,
                 description:
                     "8mm notch towel/trowel used for spreading tile adhesive evenly during tile installation.",
                 specifications: {
@@ -391,7 +396,7 @@ export const productsData: ProductCategory[] = [
                 name: "ALUMINIUM DOUBLE SUCTION CUP",
                 slug: "aluminium-double-suction-cup",
                 category: "application-tools",
-                image: "/images/products/aluminium-double-suction-cup.png",
+                image: aluminiumDoubleSuctionCup,
                 description:
                     "Aluminium double suction cup used for lifting and positioning large-format tiles and slabs safely during installation.",
                 specifications: {
@@ -524,7 +529,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV READY MIX",
                 slug: "keshav-ready-mix",
                 category: "construction-chemicals",
-                image: "/images/products/keshav-ready-mix.png",
+                image: readyMixfront,
                 description:
                     "KESHAV READY MIX is a pre-mixed construction chemical formulation for plastering and repair applications requiring consistent, ready-to-use material on site.",
                 specifications: {

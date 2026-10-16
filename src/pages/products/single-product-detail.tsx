@@ -143,10 +143,10 @@ export default function SingleProductDetail() {
                 >
                     <div className="pavanity-split-panel pavanity-products-overview__panel max-w-[1720px] mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2">
                         {/* Image Column */}
-                        <div className="pavanity-split-panel__media pavanity-products-overview__media lg:pr-10 2xl:pr-0 relative">
+                        <div className="pavanity-split-panel__media pavanity-products-overview__media relative">
                             <div>
                                 <img
-                                    className="object-contain w-full h-full p-4 md:p-8"
+                                    className="object-cover w-full h-full"
                                     src={product.image || placeholderImage}
                                     alt={product.name}
                                     loading="lazy"
@@ -306,7 +306,7 @@ export default function SingleProductDetail() {
                                                         src={relatedProduct.image}
                                                         alt={relatedProduct.name}
                                                         loading="lazy"
-                                                        className="w-full h-full object-contain p-3 sm:p-4 group-hover:scale-110 duration-500"
+                                                        className="w-full h-full object-cover group-hover:scale-110 duration-500"
                                                     />
                                                 </div>
                                             )}
