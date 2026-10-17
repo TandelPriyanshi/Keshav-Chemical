@@ -15,6 +15,7 @@ import readyMixfront from "../assets/image/ready-mix.jpeg";
 // import readyMixback from "../assets/image/ready-mix-2.jpeg";
 import tileJointFiller from "../assets/image/tiles-joint-filler.jpeg";
 import towel8mm from "../assets/image/towel-8mm.jpeg"
+import sbr from "../assets/image/sbr.jpeg"
 
 export interface ProductSpecifications {
     size?: string;
@@ -495,7 +496,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV SBR LATEX",
                 slug: "keshav-sbr-latex",
                 category: "construction-chemicals",
-                image: "/images/products/keshav-sbr-latex.png",
+                image: sbr,
                 description:
                     "KESHAV SBR LATEX is a styrene-butadiene rubber latex used as a bonding agent and additive in cementitious mortars, plasters, and waterproofing applications.",
                 specifications: {

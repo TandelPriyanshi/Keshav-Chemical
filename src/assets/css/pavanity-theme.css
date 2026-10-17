@@ -5238,9 +5238,9 @@ img {
     }
 }
 
-/* Fill product photo frames without distorting the images. */
+/* Keep complete product packaging visible inside its photo frame. */
 .pavanity-products-card--compact .pavanity-products-card__media {
-    background: #eaecef;
+    background: #ffffff;
 }
 
 .pavanity-products-card--compact .pavanity-products-card__media::after {
@@ -5248,13 +5248,13 @@ img {
 }
 
 .pavanity-products-card--compact .pavanity-products-card__media img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .pavanity-products-overview__media {
     display: grid;
     overflow: hidden;
-    background: #eaecef;
+    background: #ffffff;
 }
 
 .pavanity-products-overview__media > div {
@@ -5265,7 +5265,7 @@ img {
 .pavanity-products-overview__media img {
     position: absolute;
     inset: 0;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
