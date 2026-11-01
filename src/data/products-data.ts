@@ -1,9 +1,9 @@
 // Product Categories and Items for Keshav Chemical
-import cement1 from "../assets/image/1.png";
-import cement2 from "../assets/image/2.png";
-import cement3 from "../assets/image/3.png";
-import cement4 from "../assets/image/4.png";
-import cement5 from "../assets/image/5.png";
+import cement1 from "../assets/image/1.jpeg";
+import cement2 from "../assets/image/2.jpeg";
+import cement3 from "../assets/image/3.jpeg";
+import cement4 from "../assets/image/4.jpeg";
+import cement5 from "../assets/image/5.jpeg";
 import cement6 from "../assets/image/6.png";
 import cleaner1 from "../assets/image/cleaner.jpeg";
 import spacer from "../assets/image/tile-spacer.jpeg";
@@ -16,7 +16,14 @@ import readyMixfront from "../assets/image/ready-mix.jpeg";
 import tileJointFiller from "../assets/image/tiles-joint-filler.jpeg";
 import towel8mm from "../assets/image/towel-8mm.jpeg"
 import sbr from "../assets/image/sbr.jpeg"
-
+import copperGlitter from "../assets/image/copper-glitter.jpeg";
+import epoxy from "../assets/image/epoxy.jpeg";
+import goldGlitter from "../assets/image/gold-glitter.jpeg";
+import mainApplicationTool from "../assets/image/main-application-tool.jpeg";
+import mainCement from "../assets/image/main-cement.jpeg";
+import mainGlitter from "../assets/image/main-glitter.jpeg";
+import rainbowGlitter from "../assets/image/rainbow-glitter.jpeg";
+import silverGlitter from "../assets/image/silver-glitter.jpeg";
 export interface ProductSpecifications {
     size?: string;
     origin?: string;
@@ -67,7 +74,7 @@ export const productsData: ProductCategory[] = [
         name: "Tile Adhesives",
         slug: "tile-adhesives",
         icon: "adhesive",
-        image: "/images/products/tile-adhesives.png",
+        image: mainCement,
         tagline: "Polymer Modified Tile Fixing",
         description:
             "Keshav Chemical tile adhesives are cement-based, polymer-modified systems for reliable bonding of ceramic, vitrified, and natural stone tiles on walls and floors. Formulated for strong adhesion, workability, and consistent site performance.",
@@ -263,7 +270,7 @@ export const productsData: ProductCategory[] = [
         name: "Epoxy",
         slug: "epoxy",
         icon: "epoxy",
-        image: "/images/products/epoxy.png",
+        image: epoxy,
         tagline: "Premium Epoxy Grouting Systems",
         description:
             "Keshav Chemical Epoxy for premium, stain-resistant, and long-lasting tile joint applications.",
@@ -273,7 +280,7 @@ export const productsData: ProductCategory[] = [
                 name: "EPOXY",
                 slug: "epoxy",
                 category: "epoxy",
-                image: "/images/products/epoxy.png",
+                image: epoxy,
                 description:
                     "EPOXY is a two-component system from Keshav Chemical for tile joints requiring high stain resistance, durability, and a uniform finish.",
                 specifications: {
@@ -292,7 +299,7 @@ export const productsData: ProductCategory[] = [
         name: "Application Tools",
         slug: "application-tools",
         icon: "tools",
-        image: "/images/products/application-tools.png",
+        image: mainApplicationTool,
         tagline: "Tile Fixing & Finishing Accessories",
         description:
             "Keshav Chemical application tools support accurate, professional tile installation, including spacers, leveling systems, and finishing accessories.",
@@ -414,7 +421,7 @@ export const productsData: ProductCategory[] = [
         name: "Glitter",
         slug: "glitter",
         icon: "glitter",
-        image: "/images/products/glitter.png",
+        image: mainGlitter,
         tagline: "Decorative Glitter Finishes",
         description:
             "Keshav Chemical Glitter range offers decorative finishes for epoxy and grout applications in Copper, Silver, Gold, and Rainbow.",
@@ -424,7 +431,7 @@ export const productsData: ProductCategory[] = [
                 name: "GLITTER - COPPER",
                 slug: "glitter-copper",
                 category: "glitter",
-                image: "/images/products/glitter-copper.png",
+                image: copperGlitter,
                 description:
                     "GLITTER - COPPER is a decorative copper-toned glitter finish for use with epoxy and grout applications.",
                 specifications: {
@@ -439,7 +446,7 @@ export const productsData: ProductCategory[] = [
                 name: "GLITTER - SILVER",
                 slug: "glitter-silver",
                 category: "glitter",
-                image: "/images/products/glitter-silver.png",
+                image: silverGlitter,
                 description:
                     "GLITTER - SILVER is a decorative silver-toned glitter finish for use with epoxy and grout applications.",
                 specifications: {
@@ -454,7 +461,7 @@ export const productsData: ProductCategory[] = [
                 name: "GLITTER - GOLD",
                 slug: "glitter-gold",
                 category: "glitter",
-                image: "/images/products/glitter-gold.png",
+                image: goldGlitter,
                 description:
                     "GLITTER - GOLD is a decorative gold-toned glitter finish for use with epoxy and grout applications.",
                 specifications: {
@@ -469,7 +476,7 @@ export const productsData: ProductCategory[] = [
                 name: "GLITTER - RAINBOW",
                 slug: "glitter-rainbow",
                 category: "glitter",
-                image: "/images/products/glitter-rainbow.png",
+                image: rainbowGlitter,
                 description:
                     "GLITTER - RAINBOW is a decorative multi-colour glitter finish for use with epoxy and grout applications.",
                 specifications: {
