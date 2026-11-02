@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
 // Images
-import bg from "../../assets/img/main_product_bc1.png";
-import placeholderImage from "../../assets/img/about/about-banner-01.jpg"; 
+import defaultBg from "../../assets/image/Keshav_chemical_main.jpeg"; 
 
 // Icons
 import { FaIndustry } from "react-icons/fa";
@@ -102,7 +101,7 @@ export default function SingleProductDetail() {
             {/* ============================================ */}
             <div
                 className="pavanity-page-hero pavanity-products-hero bg-overlay"
-                style={{ backgroundImage: `url(${bg})` }}
+                style={{ backgroundImage: `url(${product.image || category?.bannerImage || category?.image || defaultBg})` }}
             >
                 <div className="pavanity-page-hero__content pavanity-products-hero__content">
                     {/* SEO: Changed h2 to h1 — product name is the primary heading for this page */}
@@ -147,7 +146,7 @@ export default function SingleProductDetail() {
                             <div>
                                 <img
                                     className="object-cover w-full h-full"
-                                    src={product.image || placeholderImage}
+                                    src={product.image || category?.image || defaultBg}
                                     alt={product.name}
                                     loading="lazy"
                                 />

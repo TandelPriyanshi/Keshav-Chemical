@@ -24,6 +24,8 @@ import mainCement from "../assets/image/main-cement.jpeg";
 import mainGlitter from "../assets/image/main-glitter.jpeg";
 import rainbowGlitter from "../assets/image/rainbow-glitter.jpeg";
 import silverGlitter from "../assets/image/silver-glitter.jpeg";
+import bannerCement from "../assets/image/banner-cement.jpeg"
+
 export interface ProductSpecifications {
     size?: string;
     origin?: string;
@@ -59,6 +61,7 @@ export interface ProductCategory {
     slug: string;
     icon: string;
     image: string;
+    bannerImage?: string;
     tagline: string;
     description: string;
     products: Product[];
@@ -75,6 +78,7 @@ export const productsData: ProductCategory[] = [
         slug: "tile-adhesives",
         icon: "adhesive",
         image: mainCement,
+        bannerImage: bannerCement,
         tagline: "Polymer Modified Tile Fixing",
         description:
             "Keshav Chemical tile adhesives are cement-based, polymer-modified systems for reliable bonding of ceramic, vitrified, and natural stone tiles on walls and floors. Formulated for strong adhesion, workability, and consistent site performance.",
@@ -215,6 +219,7 @@ export const productsData: ProductCategory[] = [
         slug: "tile-joint-fillers",
         icon: "grout",
         image: tileJointFiller,
+        bannerImage: tileJointFiller,
         tagline: "Joint Filling & Finishing",
         description:
             "Keshav Chemical Tile Joint Fillers for durable, finished tile joints in residential and commercial projects.",
@@ -242,6 +247,7 @@ export const productsData: ProductCategory[] = [
         slug: "tile-and-stone-cleaner",
         icon: "care",
         image: cleaner1,
+        bannerImage: cleaner1,
         tagline: "Post-Installation Care",
         description:
             "Tile and Stone Cleaner from Keshav Chemical helps maintain and clean tiled surfaces after installation, supporting a professional project finish.",
@@ -271,6 +277,7 @@ export const productsData: ProductCategory[] = [
         slug: "epoxy",
         icon: "epoxy",
         image: epoxy,
+        bannerImage: epoxy,
         tagline: "Premium Epoxy Grouting Systems",
         description:
             "Keshav Chemical Epoxy for premium, stain-resistant, and long-lasting tile joint applications.",
@@ -300,6 +307,7 @@ export const productsData: ProductCategory[] = [
         slug: "application-tools",
         icon: "tools",
         image: mainApplicationTool,
+        bannerImage: mainApplicationTool,
         tagline: "Tile Fixing & Finishing Accessories",
         description:
             "Keshav Chemical application tools support accurate, professional tile installation, including spacers, leveling systems, and finishing accessories.",
@@ -357,7 +365,7 @@ export const productsData: ProductCategory[] = [
                 name: "JACK (RED)",
                 slug: "jack-red",
                 category: "application-tools",
-                image: "/images/products/jack-red.png",
+                image: fitting,
                 description:
                     "Red jack tool used to tighten leveling wedges against tile leveling clips for precise tile alignment.",
                 specifications: {
@@ -422,6 +430,7 @@ export const productsData: ProductCategory[] = [
         slug: "glitter",
         icon: "glitter",
         image: mainGlitter,
+        bannerImage: mainGlitter,
         tagline: "Decorative Glitter Finishes",
         description:
             "Keshav Chemical Glitter range offers decorative finishes for epoxy and grout applications in Copper, Silver, Gold, and Rainbow.",
@@ -493,7 +502,8 @@ export const productsData: ProductCategory[] = [
         name: "Construction Chemicals",
         slug: "construction-chemicals",
         icon: "chemical",
-        image: "/images/products/construction-chemicals.png",
+        image: sbr,
+        bannerImage: sbr,
         tagline: "Building Protection & Bonding",
         description:
             "Construction chemical solutions from Keshav Chemical support waterproofing, bonding, and repair applications in building and infrastructure projects.",
@@ -520,7 +530,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV BLOCK FIX",
                 slug: "keshav-block-fix",
                 category: "construction-chemicals",
-                image: "/images/products/keshav-block-fix.png",
+                image: readyMixfront,
                 description:
                     "KESHAV BLOCK FIX is a ready-to-use block jointing mortar for AAC and concrete block masonry, offering uniform mixing and easy application on site.",
                 specifications: {

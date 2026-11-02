@@ -5,7 +5,7 @@
   "description": "Furnixar - React Ts Furniture & Home Decor eCommerce Template",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "npm run seo:generate && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

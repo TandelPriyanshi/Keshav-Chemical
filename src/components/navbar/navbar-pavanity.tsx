@@ -64,6 +64,7 @@ export default function NavbarPavanity() {
             className={[
                 "pavanity-site-header",
                 isScrolled ? "is-sticky" : "",
+                isMobileMenuOpen ? "is-mobile-open" : "",
             ].join(" ")}
         >
             <div className="pavanity-site-header__shell">
@@ -170,8 +171,11 @@ export default function NavbarPavanity() {
 
                         <button
                             type="button"
-                            className="pavanity-nav-toggle lg:hidden"
-                            aria-label="Toggle menu"
+                            className={[
+                                "pavanity-nav-toggle lg:hidden",
+                                isMobileMenuOpen ? "is-active" : "",
+                            ].join(" ")}
+                            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
                             aria-expanded={isMobileMenuOpen}
                             aria-controls="pavanity-mobile-nav"
                             onClick={() =>
@@ -217,16 +221,16 @@ export default function NavbarPavanity() {
                                     </NavLink>
 
                                     {item.href === "/products" ? (
-                                        <div className="pavanity-mobile-submenu mt-2 grid gap-2 pl-3">
+                                        <div className="pavanity-mobile-submenu mt-2 grid gap-1.5">
                                             {productsData.map((category) => (
                                                 <NavLink
                                                     key={category.id}
                                                     to={`/products/${category.slug}`}
                                                     className={[
-                                                        "rounded-[0.9rem] px-3 py-2 text-sm",
+                                                        "rounded-[0.75rem] px-3 py-2 text-sm transition-colors",
                                                         isHomePage && !isScrolled
-                                                            ? "text-white/75 hover:bg-white/8 hover:text-white"
-                                                            : "text-[var(--pavanity-text)] hover:bg-[var(--pavanity-surface-soft)] hover:text-[var(--pavanity-accent)] dark:text-white/75 dark:hover:bg-white/8 dark:hover:text-white",
+                                                            ? "text-white/80 hover:bg-white/10 hover:text-white"
+                                                            : "text-[var(--pavanity-text)] hover:bg-[var(--pavanity-surface-soft)] hover:text-[var(--pavanity-accent)] dark:text-white/80 dark:hover:bg-white/10 dark:hover:text-white",
                                                     ].join(" ")}
                                                 >
                                                     {category.name}

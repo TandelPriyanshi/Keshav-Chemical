@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
 // Images
-import bg from "../../assets/img/main_product_bc1.png";
+import defaultBg from "../../assets/image/Keshav_chemical_main.jpeg";
  
 // Icons
 import {
@@ -244,7 +244,7 @@ export default function DivisionDetail() {
             {/* ============================================ */}
             <div
                 className="pavanity-page-hero pavanity-products-hero bg-overlay"
-                style={{ backgroundImage: `url(${bg})` }}
+                style={{ backgroundImage: `url(${category.bannerImage || category.image || defaultBg})` }}
             >
                 <div className="pavanity-page-hero__content pavanity-products-hero__content">
                     {/* SEO: Changed h2 to h1 — category name is the primary heading for this page */}

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // Images
-import bg from '../../assets/img/main_product_bc1.png' 
+import productsBg from "../../assets/image/Keshav_chemical_main.jpeg"; 
 
 // Data
 import { productsData } from "../../data/products-data";
@@ -31,7 +31,7 @@ export default function ProductsMain() {
         {/* ============================================ */}
         {/* BREADCRUMB SECTION */}
         {/* ============================================ */}
-        <div className="pavanity-page-hero pavanity-products-hero bg-overlay" style={{backgroundImage:`url(${bg})`}}>
+        <div className="pavanity-page-hero pavanity-products-hero bg-overlay" style={{backgroundImage:`url(${productsBg})`}}>
             <div className="pavanity-page-hero__content pavanity-products-hero__content">
                 <h1 className="text-white text-8 md:text-[40px] font-normal leading-none text-center">Products</h1>
                 <ul className="flex items-center justify-center gap-[10px] text-base md:text-lg leading-none font-normal text-white mt-3 md:mt-4 flex-wrap">
