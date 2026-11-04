@@ -251,7 +251,7 @@ export const footerContent = {
 };
 
 export const socialMedia = [
-    { name: "WhatsApp", url: "#", icon: "whatsapp" },
+    { name: "WhatsApp", url: "https://wa.me/919825850200", icon: "whatsapp" },
     { name: "Instagram", url: "https://www.instagram.com/keshavchemicals?rpxt=ZmRrYjIxMGw3c3M5", icon: "instagram" },
     { name: "Facebook", url: "https://www.facebook.com/share/1P91UYb2jT/", icon: "facebook" },
 ];
@@ -263,6 +263,8 @@ export const socialMedia = [
 export const contactInfo = {
     email: "info@keshavchemical.com",
     phone: "+91 98258 50200",
+    whatsapp: "+91 98258 50200",
+    whatsappUrl: "https://wa.me/919825850200",
     address: "Gujarat, India",
     responseTime: "24-48 working hours",
 };

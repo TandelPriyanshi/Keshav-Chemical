@@ -24,7 +24,9 @@ import mainCement from "../assets/image/main-cement.jpeg";
 import mainGlitter from "../assets/image/main-glitter.jpeg";
 import rainbowGlitter from "../assets/image/rainbow-glitter.jpeg";
 import silverGlitter from "../assets/image/silver-glitter.jpeg";
-import bannerCement from "../assets/image/banner-cement.jpeg"
+import bannerCement from "../assets/image/banner-cement.jpeg";
+import blockFix from "../assets/image/block-fix.jpeg";
+import constructionChemical from "../assets/image/construction-chemical.jpeg";
 
 export interface ProductSpecifications {
     size?: string;
@@ -502,8 +504,8 @@ export const productsData: ProductCategory[] = [
         name: "Construction Chemicals",
         slug: "construction-chemicals",
         icon: "chemical",
-        image: sbr,
-        bannerImage: sbr,
+        image: constructionChemical,
+        bannerImage: constructionChemical,
         tagline: "Building Protection & Bonding",
         description:
             "Construction chemical solutions from Keshav Chemical support waterproofing, bonding, and repair applications in building and infrastructure projects.",
@@ -530,7 +532,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV BLOCK FIX",
                 slug: "keshav-block-fix",
                 category: "construction-chemicals",
-                image: readyMixfront,
+                image: blockFix,
                 description:
                     "KESHAV BLOCK FIX is a ready-to-use block jointing mortar for AAC and concrete block masonry, offering uniform mixing and easy application on site.",
                 specifications: {
