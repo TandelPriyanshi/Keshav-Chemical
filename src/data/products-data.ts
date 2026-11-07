@@ -4,7 +4,7 @@ import cement2 from "../assets/image/2.jpeg";
 import cement3 from "../assets/image/3.jpeg";
 import cement4 from "../assets/image/4.jpeg";
 import cement5 from "../assets/image/5.jpeg";
-import cement6 from "../assets/image/6.png";
+import cement6 from "../assets/image/6.jpeg";
 import cleaner1 from "../assets/image/cleaner.jpeg";
 import spacer from "../assets/image/tile-spacer.jpeg";
 import fittingWedge from "../assets/image/tile-fitting-wedge.jpeg";
@@ -27,6 +27,7 @@ import silverGlitter from "../assets/image/silver-glitter.jpeg";
 import bannerCement from "../assets/image/banner-cement.jpeg";
 import blockFix from "../assets/image/block-fix.jpeg";
 import constructionChemical from "../assets/image/construction-chemical.jpeg";
+import puAdhesive from "../assets/image/pu-adhesive.jpeg"
 
 export interface ProductSpecifications {
     size?: string;
@@ -201,7 +202,7 @@ export const productsData: ProductCategory[] = [
                 name: "KESHAV PU ADHESIVE",
                 slug: "keshav-pu-adhesive",
                 category: "tile-adhesives",
-                image: cement1,
+                image: puAdhesive,
                 description:
                     "KESHAV PU ADHESIVE is a polyurethane-based tile adhesive for elastic bonding where movement accommodation and adhesion on varied substrates are needed.",
                 specifications: {
